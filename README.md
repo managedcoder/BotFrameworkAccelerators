@@ -1,4 +1,4 @@
 # BotFrameworkAccelerators
 Development accelerators for the Microsoft Bot Framework
 ## SecuredWebChatControl [[ SecuredWebChatControl | Secured Web Chat Control ]]
-Shows how to securely embed a Web Chat control on a web page
+Shows how to securely embed a Web Chat control on a web page. [Link](doc:SecuredWebChatControl\README.md)
