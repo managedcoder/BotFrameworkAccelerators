@@ -13,8 +13,8 @@ using Newtonsoft.Json.Linq;
 
 /* ----------------------------------------------------------------------------------
  * Important!!!
- * There are two things you must do before running this code:
- * 1) To avoid connection exhaustion issues, this code exercises the best practice of
+ * The following tasks must be completed before running this code or it will fail:
+ *  * 1) To avoid connection exhaustion issues, this code exercises the best practice of
  *    only using a single HttpClient instance per application so you'll need to add 
  *    dependency injection by adding the follwing line of code to the Startup.cs file 
  *    somewhere in the ConfigureServices() method:
@@ -22,6 +22,9 @@ using Newtonsoft.Json.Linq;
  * 2) This code expects that to get the Bot Secret from the appsettings.cs file so 
  *    you'll need to add the following setting to the appsettings.cs file:
  *          "directLineSecret": "<YourDirectLineSecret>",
+ * 3) Go to the Azure portal and enable the Direct Line channel and copy the Secret Key
+ *    and paste it in as the value of the directLineSecret setting that you created in
+ *    the previous step.
  * ----------------------------------------------------------------------------------
 */
 namespace MyFirstVirtualAssistantRHW.Controllers
