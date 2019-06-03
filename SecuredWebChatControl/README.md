@@ -1,5 +1,5 @@
 # Secured Web Chat Control
-This accelerator shows how to properly embed a Web Chat control on a web page.  Use it to replace the default.htm
+This accelerator shows how to securely embed a Web Chat control on a web page.  Use it to replace the default.htm
 in your Virtual Assistant to change the default landing page into a test page that others can use to explore or test 
 your bot.
 
