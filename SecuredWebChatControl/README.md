@@ -7,6 +7,6 @@ For more information about securely embedding a Web Chat conrol, see the Direct 
 [here](https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-authentication?view=azure-bot-service-4.0)
 
 ## To Use
-1. Copy default.htm to the wwwroot folder and replace the existing default.htm file
-2. Copy TokenController.cs to your Controllers folder in your Virtual Assistant and follow the instructions at the top
+1. Copy wwwroot\default.htm to the wwwroot folder and replace the existing default.htm file
+2. Copy Controllers\TokenController.cs to your Controllers folder in your Virtual Assistant and follow the instructions at the top
 of that file
