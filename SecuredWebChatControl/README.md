@@ -1,10 +1,9 @@
 # Secured Web Chat Control
-This accelerator shows how to securely embed a Web Chat control on a web page.  Use it to replace the default.htm
-in your Virtual Assistant to change the default landing page into a test page that others can use to explore or test 
-your bot.
+This accelerator shows the recommended way to securely embed a Web Chat control on a web page so that the bot secret is 
+not exposed.  You can also use it to create a quick test page so others can explore or test your bot rather than having
+to use bot emulator or the portal.
 
-The implementation of this page follows the recommended approach for embedding the Microsoft Bot Framework's Web Chat
-control is to use an access token instead of the Bot Secret.  For more information, see the Direct Line documentation
+For more information about securely embedding a Web Chat conrol, see the Direct Line documentation
 [here](https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-authentication?view=azure-bot-service-4.0)
 
 ## To Use
