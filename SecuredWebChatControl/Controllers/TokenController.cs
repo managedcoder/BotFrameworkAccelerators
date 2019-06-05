@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Protocols;
-using MyFirstVirtualAssistantRHW.Services;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -19,15 +18,15 @@ using Newtonsoft.Json.Linq;
  *    dependency injection by adding the follwing line of code to the Startup.cs file 
  *    somewhere in the ConfigureServices() method:
  *          services.AddSingleton<HttpClient>(new HttpClient());
- * 2) This code expects that to get the Bot Secret from the appsettings.cs file so 
- *    you'll need to add the following setting to the appsettings.cs file:
+ * 2) This code expects that to get the Bot Secret from the appsettings.json file so 
+ *    you'll need to add the following setting to the appsettings.json file:
  *          "directLineSecret": "<YourDirectLineSecret>",
  * 3) Go to the Azure portal and enable the Direct Line channel and copy the Secret Key
  *    and paste it in as the value of the directLineSecret setting that you created in
  *    the previous step.
  * ----------------------------------------------------------------------------------
 */
-namespace MyFirstVirtualAssistantRHW.Controllers
+namespace SecuredWebChatConrol.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
