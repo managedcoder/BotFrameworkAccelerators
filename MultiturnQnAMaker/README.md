@@ -6,12 +6,12 @@ Background: The new QnA Maker Follow-on prompts do not automatically appear in b
 make that happen.  This topic will show you how to add the ability to show the new QnA Maker follow-on
 prompts in your new assistant
 
-*Important!!!!  The Virtual Assistant Template and bot framework tools have not yet been updated to respect 
+** *Important!!!!  The Virtual Assistant Template and bot framework tools have not yet been updated to respect 
 multiturn follow-on prompts so this accelerator is a temporary workaround and some follow-on prompts will not
 work properly.  You can use this to explore follow-on prompts in your assistant, but the SDK will eventually
 be updated and obviate this workaround.  Bottom line – this code should be removed before the assistant is
 deployed in production or once the SDK has been updated.  When the SDK is updated, this accelerator will be
-updated with the proper instructions on how to incorporate follow-on prompts in an assistant.*
+updated with the proper instructions on how to incorporate follow-on prompts in an assistant.* **
 
 You can find an overview of this new multiturn QnA capability
 [here](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/multiturn-conversation) 
