@@ -1,6 +1,6 @@
 # Multiturn QnA Maker
-This accelerator shows how to add the ability to show the new follow-on prompts you can now add to
-QnA Maker knowledgebases.
+This accelerator shows how to add the ability to show the new QnA Maker follow-on prompts in a bot
+that was created in Visual Studio using the Virtual Assistant template.
 
 You can find an overview of this new multiturn QnA capability
 [here](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/multiturn-conversation) 

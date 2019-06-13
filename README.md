@@ -5,4 +5,4 @@ Development accelerators for the Microsoft Bot Framework
 Shows how to embed a Web Chat control on a web page without exposing the bot secret
 
 ## [Add Multiturn QnA to a Virtual Assistant](MultiturnQnAMaker)
-Shows how to enable QnA follow-on prompts in a Virtual Assistant bot
+Shows how to enable QnA follow-on prompts in a bot created using the Virtual Assistant template
