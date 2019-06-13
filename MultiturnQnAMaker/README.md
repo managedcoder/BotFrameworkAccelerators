@@ -1,4 +1,4 @@
-# Multiturn QnA Maker
+# Add Multiturn QnA to a Virtual Assistant
 This accelerator shows how to add the ability to show the new QnA Maker follow-on prompts in a bot
 that was created in Visual Studio using the Virtual Assistant template.
 
