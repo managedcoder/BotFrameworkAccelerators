@@ -4,7 +4,7 @@ that was created in Visual Studio using the Virtual Assistant template.
 
 Background: The new QnA Maker Follow-on prompts do not automatically appear in bot clients, you must add code to
 make that happen.  This topic will show you how to add the ability to show the new QnA Maker follow-on
-prompts in your new assistant
+prompts in a Virtual Assistant bot.
 
 ***Important!!!!  The Virtual Assistant Template and bot framework tools have not yet been updated to respect 
 multiturn follow-on prompts so this accelerator is a temporary workaround and some follow-on prompts will not
