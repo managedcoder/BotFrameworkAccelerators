@@ -15,7 +15,7 @@ for quick way to manually add 1 or 2 to get started)
 5. Edit your assistant's **Dialogs\MainDialog.cs** as outlined in 
 [Dialogs\Changes to MainDialog.cs.pdf](Dialogs/Changes%20to%20MainDialog.cs.pdf)
 6. Edit your assistant's **Services\BotServices.cs** as outlined in 
-[Services\Changes to BotServices.cs.pdf](MultiturnQnAMaker/Services/Changes%20to%20BotServices.cs.pdf)
+[Services\Changes to BotServices.cs.pdf](Services/Changes%20to%20BotServices.cs.pdf)
 7. Edit your assistant's **Startup.cs** as outlined in 
 [Changes to Startup.cs.pdf](Changes%20to%20Startup.cs.pdf)
 8. Browse to [https://www.qnamaker.ai/](https://www.qnamaker.ai/) and find the **faq** for the assistant
