@@ -5,7 +5,7 @@ journey from conception to production deployment.  You’ll move step-by-step thro
 to build your bot and complete this workshop and then you'll use the other links in the master plan as you continue 
 to extend and refine your bot all the way through to production deployment.
 
-There is a screen recording of an entire example workshop [here](http://tobecreatelater.com) which might find helpful
+There is a screen recording of an entire example workshop [here](http://tobecreatelater.com) which might be helpful
 in the following scenarios :
 * Instructors preparing to lead a workshop
 * Brave self-learns who want to see if they can get from A to Z on their own
