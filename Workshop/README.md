@@ -8,5 +8,5 @@ to extend and refine your bot all the way through to production deployment.
 There is a screen recording of an entire example workshop [here](http://tobecreatelater.com) which might be helpful
 in the following scenarios :
 * Instructors preparing to lead a workshop
-* Brave self-learns who want to see if they can get from A to Z on their own
+* Brave self-learners who want to see if they can get from A to Z on their own
 * Workshop graduates who want to review someting they had later forgot or became confused about
