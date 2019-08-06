@@ -52,7 +52,7 @@ the constructor of `MainDialog` in **MainDialog.cs**
 the following code to the `switch(intent)` statement:
 
 ```c#
-	case <YourSkillNameHere>Luis.Intent.ApplyForECard:
+	case YourSkillNameHere.Intent.ApplyForECard:
 	{
 		turnResult = await dc.BeginDialogAsync(nameof(GetLibraryCardDialog));
 
@@ -65,3 +65,8 @@ If you don't have a LUIS Intent that corresponds to this new dialog yet, you
 can go with "*Plan B*" and make the `case YourSkillName.Intent.Sample:`
 statement look like the following:
 > <img src="/Images/PlanBBeginDialog.png" width="600">
+
+7. Open Startup.cs and choose **Edit | Find and Replace | Quick Find** (or **Ctrl-F**) 
+type **Register dialogs** in the search field and hit Return.  Now add
+`services.AddTransient<GetLibraryCardDialog>();` and it should look like the following:
+> <img src="/Images/Startup.png" width="600">
