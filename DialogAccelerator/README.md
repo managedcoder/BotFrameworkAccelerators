@@ -52,20 +52,18 @@ the constructor of `MainDialog` in **MainDialog.cs**
 the following code to the `switch(intent)` statement:
 
 ```c#
-case LibraryBotSkillLuis.Intent.ApplyForECard:
-{
-    //await dc.Context.SendActivityAsync("So you want library card do you?");
-    turnResult = await dc.BeginDialogAsync(nameof(GetLibraryCardDialog));
+	case LibraryBotSkillLuis.Intent.ApplyForECard:
+	{
+		//await dc.Context.SendActivityAsync("So you want library card do you?");
+		turnResult = await dc.BeginDialogAsync(nameof(GetLibraryCardDialog));
 
-    break;
-}
+		break;
+	}
 ```
 
 > <img src="/Images/BeginDialog.png" width="800">
-
-	If you don't have a LUIS Intent that corresponds to this new dialog yet, you
+If you don't have a LUIS Intent that corresponds to this new dialog yet, you
 can go with "*Plan B*" and call **turnResult = await dc.BeginDialogAsync(nameof(GetLibraryCardDialog));**
 in the **case LibraryBotSkillLuis.Intent.Sample:** statement instead of calling
 **turnResult = await dc.BeginDialogAsync(nameof(SampleDialog));**
-
-<img src="/Images/PlanBBeginDialog.png" width="600">
+> <img src="/Images/PlanBBeginDialog.png" width="600">
