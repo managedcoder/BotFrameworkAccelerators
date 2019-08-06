@@ -26,5 +26,6 @@ first principals.  Here are the steps:
 and choose **Add | Class...** and name the class after the Intent you're targeting with
 this dialog and then choose **Add**
 2. Copy the entire GetLibraryCard.cs found [here](GetLibraryCard.cs) into the paste buffer
-by clicking the **Raw** button and then typing Control-A and then Control-C. <img src="/Images/RawButton.png" width="200">
+by clicking the **Raw** button and then typing Control-A and then Control-C.
+<img src="/Images/RawButton.png" width="200">
 3. In Visual Studio, open the new class you created 
