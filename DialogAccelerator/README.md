@@ -58,11 +58,12 @@ case LibraryBotSkillLuis.Intent.ApplyForECard:
 
     break;
 }
-```c#
+```
 > <img src="/Images/BeginDialog.png" width="800">
+
     If you don't have a LUIS Intent that corresponds to this new dialog yet, you
 	can go with *Plan B* and call 
 <pre><b>turnResult = await dc.BeginDialogAsync(nameof(GetLibraryCardDialog));</b></pre>
 	in the **case LibraryBotSkillLuis.Intent.Sample:** statement instead of calling
 	**turnResult = await dc.BeginDialogAsync(nameof(SampleDialog));**
-> <img src="/Images/BeginDialog.png" width="800">
+> <img src="/Images/PlanBBeginDialog.png" width="800">
