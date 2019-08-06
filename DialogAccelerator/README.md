@@ -69,7 +69,7 @@ statement look like the following:
 7. Open Startup.cs and choose **Edit | Find and Replace | Quick Find** (or **Ctrl-F**) 
 type **Register dialogs** in the search field and hit Return.  Now add
 `services.AddTransient<GetLibraryCardDialog>();` and it should look like the following:
-> <img src="/Images/Startup.png" width="400">
+> <img src="/Images/Startup.png" width="350">
 
 8. Now your ready to test out Phase 1.  Set your Skill to be the StartUp Project and 
 start the the degugger.  Now open your bot in the Bot Emulator and invoke your LUIS
