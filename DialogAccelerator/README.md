@@ -1,8 +1,8 @@
 # Dialog Accelerator
-This accelerator shows how to repurpose a dialog template that can be used to create 
-moderate and complex conversational bot dialogs.  This template is a working roadmap
-of how to code the most common intereaction (conversation) scenarios:
-
+This accelerator shows how to use the Dialog Accelerator template to create 
+moderate to complex conversational bot dialogs.  This template lays out a
+working roadmap of how to code the most common intereaction (conversation) 
+scenarios:
 * Simple prompts
 * Built-in validation
 * Custom validation
@@ -11,12 +11,13 @@ of how to code the most common intereaction (conversation) scenarios:
 modularizing a conversation)
 * How to localize prompts for multilingual bots
 
-For more advanced conversation, browse to anyone of the following:
+For more advanced conversational flows, browse to:
 * [Looping](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-dialog-manage-complex-conversation-flow?view=azure-bot-service-4.0&tabs=csharp)
 * [Handling interruptions](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-handle-user-interrupt?view=azure-bot-service-4.0&tabs=csharp)
 * [Overview of dialogs](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0)
 
 ## To Use
-1. Copy wwwroot\default.htm to the wwwroot folder and replace the existing default.htm file
-2. Copy Controllers\TokenController.cs to your Controllers folder in your Virtual Assistant and follow the instructions at the top
-of that file
+1. In your Skills bot, right-click the *Dialogs* folder and choose *Add | Class...* and
+name the dialog after the Intent your targeting with this dialog and then choose *Add*
+2. Replace the entire content of the file you just created with the Dialog Accelerator 
+template found [here](GetLibraryCard.cs)
