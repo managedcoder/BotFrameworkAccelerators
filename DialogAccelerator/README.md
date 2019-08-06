@@ -52,9 +52,8 @@ the constructor of `MainDialog` in **MainDialog.cs**
 the following code to the `switch(intent)` statement:
 
 ```c#
-	case LibraryBotSkillLuis.Intent.ApplyForECard:
+	case <YourSkillNameHere>Luis.Intent.ApplyForECard:
 	{
-		//await dc.Context.SendActivityAsync("So you want library card do you?");
 		turnResult = await dc.BeginDialogAsync(nameof(GetLibraryCardDialog));
 
 		break;
@@ -63,6 +62,6 @@ the following code to the `switch(intent)` statement:
 
 > <img src="/Images/BeginDialog.png" width="800">
 If you don't have a LUIS Intent that corresponds to this new dialog yet, you
-can go with "*Plan B*" and make the `case LibraryBotSkillLuis.Intent.Sample:`
+can go with "*Plan B*" and make the `case YourSkillName.Intent.Sample:`
 statement look like the following:
 > <img src="/Images/PlanBBeginDialog.png" width="600">
