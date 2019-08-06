@@ -45,7 +45,7 @@ Double-clicking a task will take you right were you need to be to carry out the 
 
     When you've finished all the tasks the code should compile without errors and 
 you'll be ready to contine with step 5.
-5. Dependency-inject the dialog by adding `GetLibraryCardDialog getLibraryCard` to 
+5. Dependency-inject the dialog by adding `GetLibraryCardDialog getLibraryCard,` to 
 the constructor of `MainDialog` in **MainDialog.cs**
 > <img src="/Images/DialogDI.png" width="400">
 6. While still in **MainDialog.cs**, navigate to the `RouteAsync()` method and add
