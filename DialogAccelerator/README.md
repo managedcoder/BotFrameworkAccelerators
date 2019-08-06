@@ -63,7 +63,6 @@ the following code to the `switch(intent)` statement:
 
 > <img src="/Images/BeginDialog.png" width="800">
 If you don't have a LUIS Intent that corresponds to this new dialog yet, you
-can go with "*Plan B*" and call **turnResult = await dc.BeginDialogAsync(nameof(GetLibraryCardDialog));**
-in the **case LibraryBotSkillLuis.Intent.Sample:** statement instead of calling
-**turnResult = await dc.BeginDialogAsync(nameof(SampleDialog));**
+can go with "*Plan B*" and make the `case LibraryBotSkillLuis.Intent.Sample:`
+statement look like the following:
 > <img src="/Images/PlanBBeginDialog.png" width="600">
