@@ -32,11 +32,13 @@ Phase 1 steps:
 1. In Visual Studio, open your Skills bot project, right-click the **Dialogs** folder
 and choose **Add | Class...** and name the class after the LUIS Intent you're targeting 
 with this dialog and then choose **Add**
+
 2. Copy the entire source code of GetLibraryCard.cs found [here](GetLibraryCard.cs) into
 your paste buffer by clicking the **Raw** button and then Control-A and then Control-C 
 > <img src="/Images/RawButton.png" width="200">
 3. Switch back Visual Studio and delete the entire contents of the file you created
 in Step 1 and replace it with the current contents of your paste buffer (Control-V)
+
 4. To expedite "*muddling*", Visual Studio **ToDo** tasks have been added to the code
 which you can see in list form if you choose **View | Task List** (or Control-W,T).
 Double-clicking a task will take you right were you need to be to carry out the task.
