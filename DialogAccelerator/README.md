@@ -19,5 +19,5 @@ For more advanced conversational flows, browse to:
 ## To Use
 1. In your Skills bot, right-click the *Dialogs* folder and choose *Add | Class...* and
 name the dialog after the Intent your targeting with this dialog and then choose *Add*
-2. Replace the entire content of the file you just created with the Dialog Accelerator 
-template found [here](GetLibraryCard.cs)
+2. Copy the entire GetLibraryCard.cs found [here](GetLibraryCard.cs) by clicking the 
+*Raw* button and then typing Control-A and then Control-C. ![Alt text](/Images/RawButton.png)
