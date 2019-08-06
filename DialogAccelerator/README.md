@@ -41,9 +41,8 @@ in Step 1 and replace it with the current contents of your paste buffer (Control
 which you can see in list form if you choose **View | Task List** (or Control-W,T).
 Double-clicking a task will take you right were you need to be to carry out the task.
 
-When you've finished all the tasks the code should compile without errors and 
+    When you've finished all the tasks the code should compile without errors and 
 you'll be ready to contine with step 5.
-
 5. Dependency-inject the dialog by adding `GetLibraryCardDialog getLibraryCard` to 
 constructor of `MainDialog` in MainDialog.cs
 > <img src="/Images/DialogDI.png" width="400">
