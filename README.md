@@ -15,3 +15,6 @@ Shows how to embed a Web Chat control on a web page without exposing the bot sec
 ## [Add Multiturn QnA to a Virtual Assistant](MultiturnQnAMaker)
 Shows how to enable QnA Maker follow-on prompts in a bot that was created in Visual Studio
 using the Virtual Assistant template.
+
+## [Dialog Accelerator](DialogAccelerator)
+Sample code that can be easily repurposed to create moderate and complex conversational bot dialogs
