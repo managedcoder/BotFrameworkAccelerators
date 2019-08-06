@@ -17,24 +17,32 @@ For more advanced conversational flows, browse to:
 * [Overview of dialogs](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0)
 
 ## To Use
-Leveraging the Dialog Accelerator is not an exact science, but rather, it's more of
+Leveraging the Dialog Accelerator is not an exact science, but rather it's more of
 what you might call a "*muddle*" technique that's a mix of prescribed and improvised
-steps.  
+steps.  In the end though, this process is a lot faster than having to start from
+first principles.
 
 Incorporating this template into your solution involves two phases:
 * Get template sample code running (this becomes your working roadmap)
 * Repurpose template sample code for your particular scenario
+To make incorporating the template easier, Visual Studio **ToDo** Tasks have been 
+added to the code to provide step-by-step instructions for accomplishing phase 1.
 
-Visual Studio **ToDo** Tasks have been added to the code to provide step-by-step
-instructions for incorporating the template into your soluton and getting it running.In the end though, this process is a lot faster than having to start from
-first principals.  Here are the steps:
-
+Phase 1 steps:
 1. In Visual Studio, open your Skills bot project, right-click the **Dialogs** folder
-and choose **Add | Class...** and name the class after the Intent you're targeting with
-this dialog and then choose **Add**
+and choose **Add | Class...** and name the class after the LUIS Intent you're targeting 
+with this dialog and then choose **Add**
 2. Copy the entire source code of GetLibraryCard.cs found [here](GetLibraryCard.cs) into
-the paste buffer by clicking the **Raw** button and then Control-A and then Control-C 
+your paste buffer by clicking the **Raw** button and then Control-A and then Control-C 
 > <img src="/Images/RawButton.png" width="200">
-3. Switch back Visual Studio, and delete the entire contents of the file you created
+3. Switch back Visual Studio and delete the entire contents of the file you created
 in Step 1 and replace it with the current contents of your paste buffer (Control-V)
-4. To expedite "*muddling*", Visual Studio ToDo tasks have been added to the code
+4. To expedite "*muddling*", Visual Studio **ToDo** tasks have been added to the code
+which you can see in list form if you choose **View | Task List** (or Control-W,T).
+Double-clicking a task will take you right were you need to be to carry out the task.
+
+When you've finished all the tasks the code should compile without errors and 
+you'll be ready to contine with step 5.
+5. Dependency-inject the dialog by adding `GetLibraryCardDialog getLibraryCard` to 
+constructor of `MainDialog` in MainDialog.cs
+> <img src="/Images/DialogDI.png" width="400">
