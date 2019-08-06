@@ -46,5 +46,17 @@ Double-clicking a task will take you right were you need to be to carry out the 
     When you've finished all the tasks the code should compile without errors and 
 you'll be ready to contine with step 5.
 5. Dependency-inject the dialog by adding `GetLibraryCardDialog getLibraryCard` to 
-constructor of `MainDialog` in MainDialog.cs
+the constructor of `MainDialog` in **MainDialog.cs**
 > <img src="/Images/DialogDI.png" width="400">
+6. While still in **MainDialog.cs**, navigate to the `RouteAsync()` method and add
+the following code to the `switch(intent)` statement:
+```c#
+case LibraryBotSkillLuis.Intent.ApplyForECard:
+{
+    //await dc.Context.SendActivityAsync("So you want library card do you?");
+    turnResult = await dc.BeginDialogAsync(nameof(GetLibraryCardDialog));
+
+    break;
+}
+```
+> <img src="/Images/BeginDialog.png" width="400">
