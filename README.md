@@ -17,4 +17,4 @@ Shows how to enable QnA Maker follow-on prompts in a bot that was created in Vis
 using the Virtual Assistant template.
 
 ## [Dialog Accelerator](DialogAccelerator)
-Sample code that can be easily repurposed to create moderate and complex conversational bot dialogs
+Dialog template that can be used to create moderate to complex conversational bot dialogs
