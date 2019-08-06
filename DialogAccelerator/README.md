@@ -69,4 +69,15 @@ statement look like the following:
 7. Open Startup.cs and choose **Edit | Find and Replace | Quick Find** (or **Ctrl-F**) 
 type **Register dialogs** in the search field and hit Return.  Now add
 `services.AddTransient<GetLibraryCardDialog>();` and it should look like the following:
-> <img src="/Images/Startup.png" width="600">
+> <img src="/Images/Startup.png" width="400">
+
+8. Now your ready to test out Phase 1.  Set your Skill to be the StartUp Project and 
+start the the degugger.  Now open your bot in the Bot Emulator and invoke your LUIS
+Intent.  If you didn't have a LUIS Intent and instead used Plan "B" then type **sample 
+dialog** to kick it off.
+
+    Study the code to learn how to test out all the varios scenarios the template 
+	supports.  For example, try and give it a non-integer for age to see built-in
+	validation or an email without the '@' to see custom validation.  Branching is
+	invoked if you type "already@member" or "county@employee" (which launches the
+	SampleDialog).
