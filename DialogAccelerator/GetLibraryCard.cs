@@ -6,17 +6,20 @@ using Microsoft.Bot.Builder.Dialogs;
 using System.Threading;
 using System.Threading.Tasks;
 
-// ToDo: Change the namespaces below to match the namespace in your SampleDialog.cs
-using LibraryBotSkill.Models;
+// ToDo Phase 1 - Step 01: Replace "LibraryBotSkill" in the following lines with the name of your skill
 using LibraryBotSkill.Services;
 namespace LibraryBotSkill.Dialogs
 {
-    // ToDo: Right-click and choose "Rename..." and name your dialog and then 
-    // change the file name to match by doing a rename in VS Solution Explorer 
+    // ToDo Phase 1 - Step 02: Right-click GetLibraryCardDialog and choose "Rename..." and 
+    // give your dialog it's proper name and then change the name of this file
+    // to match the class name you chose by doing a rename in VS Solution Explorer 
     public class GetLibraryCardDialog : ComponentDialog
     {
         // To localize a multilingual bot, use the approach outlined in the main VA Assistant's OnboardingDialog
         //private static OnboardingResponses _responder = new OnboardingResponses();
+
+        // ToDo Phase 1 - Step 03: Right-click MembershipState and choose "Rename..." and 
+        // give your conversation state model class it's proper name 
         private IStatePropertyAccessor<MembershipState> _accessor;
         private MembershipState _state;
 
@@ -35,13 +38,16 @@ namespace LibraryBotSkill.Dialogs
             //          - Browse here to see how to code other prompt types: https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-compositcontrol?view=azure-bot-service-4.0&tabs=csharp
             //    - Built-in validation (NumberPrompt<int> only allow integers)
             //    - Custom validation (email and verification code)
-            //    - How to skip steps you already have an answer for (sc.NextAsync(<known answer>)
+            //    - How to skip asking users questions that already have answers (sc.NextAsync(<known answer>)
             //    - "Branch" conversation by calling nested dialog. Good for dialog reuse or modularizing a conversation (BeginDialogAsync in CheckIfCountyEmployee())
             //    - How to localize the prompts of a multilingual bot (commented out currently in AskForName())
             // For more advanced conversation flow:
             //    - Looping: https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-dialog-manage-complex-conversation-flow?view=azure-bot-service-4.0&tabs=csharp
             //    - Handling interruptions: https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-handle-user-interrupt?view=azure-bot-service-4.0&tabs=csharp
             //    - Overview of dialogs: https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-dialog?view=azure-bot-service-4.0
+            // ToDo Phase 1 - Step 04: Right-click getLibraryCard member and choose "Rename..." and 
+            // give this WaterfallStep variable it's proper name. Typically, this will
+            // match the name of the intent
             var getLibraryCard = new WaterfallStep[]
             {
                 AskForName,
@@ -293,12 +299,13 @@ namespace LibraryBotSkill.Dialogs
             // Provide summary of conversation for this dialog
             await sc.Context.SendActivityAsync($"We're all set {_state.Name}!  A confirmation will all your membership details will be emailed to {_state.Email}");
 
-            // ToDo: Perform goal of conversation here (call membership service in this case)
+            // ToDo Phase 2 - Step 01: Perform goal of conversation here (call membership service in this case)
             // libraryService.CreateMembership(_state);
 
             return await sc.EndDialogAsync();
         }
 
+        // ToDo Phase 2 - Step 02: Customize DialogIds for your dialog's requirements
         private class DialogIds
         {
             public const string NamePrompt = "FirstNamePrompt";
@@ -307,5 +314,14 @@ namespace LibraryBotSkill.Dialogs
             public const string EmailPrompt = "EmailPrompt";
             public const string VerificationPrompt = "VerificationPrompt";
         }
+    }
+
+    // ToDo Phase 2 - Step 03: Move this class to it's own file in a "Models" solution folder
+    // ToDo Phase 2 - Step 04: Customize conversation state class for your dialog's requirements
+    public class MembershipState
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public string Email { get; set; }
     }
 }
