@@ -28,7 +28,7 @@ Incorporating this template into your solution involves two phases:
 To make incorporating the template easier, Visual Studio **ToDo** Tasks have been 
 added to the code to provide step-by-step instructions for accomplishing phase 1.
 
-###Phase 1 - Get Template Code Running
+### Phase 1 - Get Template Code Running
 
 1. In Visual Studio, open your Skills bot project, right-click the **Dialogs** folder
 and choose **Add | Class...** and name the class after the LUIS Intent you're targeting 
@@ -85,7 +85,7 @@ dialog** to kick it off.
 	invoked if you type "already@member" or "county@employee" (which launches the
 	SampleDialog).
 
-###Phase 2 - *Muddle* through to Repurpose Template for Your Particular Scenario
+### Phase 2 - *Muddle* through to Repurpose Template for Your Particular Scenario
 
 Now that you've got the template running and you've explored all the scenarios, 
 your ready accelerate the development of your dialog by repurposing the various
