@@ -68,7 +68,7 @@ can go with "*Plan B*" and make the `case YourSkillName.Intent.Sample:`
 statement look like the following:
 > <img src="/Images/PlanBBeginDialog.png" width="600">
 
-7. Finally, register the dialog for dependency injection by opening Startup.cs and
+7. Finally, register the dialog for dependency injection by opening *Startup.cs* and
 choosing **Edit | Find and Replace | Quick Find** (or **Ctrl-F**) and typing **Register
 dialogs** in the search field and hit Return.  Now add 
 `services.AddTransient<GetLibraryCardDialog>();` and it should look like the following:

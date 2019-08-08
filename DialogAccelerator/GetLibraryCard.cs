@@ -11,7 +11,7 @@ using LibraryBotSkill.Services;
 namespace LibraryBotSkill.Dialogs
 {
     // ToDo Phase 1 - Step 02: Right-click GetLibraryCardDialog and choose "Rename..." and 
-    // give your dialog it's proper name and then change the name of this file
+    // give your dialog its proper name and then change the name of this file
     // to match the class name you chose by doing a rename in VS Solution Explorer 
     public class GetLibraryCardDialog : ComponentDialog
     {
