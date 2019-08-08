@@ -46,7 +46,7 @@ Double-clicking a task will take you right were you need to be to carry out the 
 
     When you've finished all the tasks the code should compile without errors and 
 you'll be ready to integrate it into the `MainDialog`.
-5. Dependency-inject the dialog into 'MainDialog' by adding 
+5. Dependency-inject the dialog into `MainDialog` by adding 
 `GetLibraryCardDialog getLibraryCard,` to the constructor of the `MainDialog` class
 in **MainDialog.cs**
 > <img src="/Images/DialogDI.png" width="400">
