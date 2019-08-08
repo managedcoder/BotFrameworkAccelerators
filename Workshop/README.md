@@ -9,4 +9,4 @@ There is a screen recording of an entire example workshop [here](http://tobecrea
 in the following scenarios :
 * Instructors preparing to lead a workshop
 * Brave self-learners who want to see if they can get from A to Z on their own
-* Workshop graduates who want to review someting they had later forgot or became confused about
+* Workshop graduates who want to review someting they had later forgot or became confused about.
