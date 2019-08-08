@@ -54,7 +54,7 @@ in **MainDialog.cs**
 the following code to the `switch(intent)` statement:
 
 ```c#
-	case YourSkillNameHere.Intent.ApplyForECard:
+	case **YourSkillNameHere**.Intent.**YourIntentNameHere**:
 	{
 		turnResult = await dc.BeginDialogAsync(nameof(GetLibraryCardDialog));
 
