@@ -79,7 +79,7 @@ statement look like the following:
 8. Finally, register the dialog for dependency injection by opening *Startup.cs* and
 choosing **Edit | Find and Replace | Quick Find** (or **Ctrl-F**) and typing **Register
 dialogs** in the search field and hit Return.  Now add 
-`services.AddTransient<GetLibraryCardDialog>();` and it should look like the following:
+`services.AddTransient<YourIntentDialog>();` and it should look like the following:
 > <img src="/Images/Startup.png" width="350">
 
 9. Now your ready to test out Phase 1.  Set your Skill to be the StartUp Project and 
