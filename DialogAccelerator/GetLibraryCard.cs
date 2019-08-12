@@ -10,16 +10,16 @@ using System.Threading.Tasks;
 using LibraryBotSkill.Services;
 namespace LibraryBotSkill.Dialogs
 {
-    // ToDo Phase 1 - Step 02: Right-click GetLibraryCardDialog and choose "Rename..." and 
-    // give your dialog its proper name and then change the name of this file
-    // to match the class name you chose by doing a rename in VS Solution Explorer 
+    // ToDo Phase 1 - Step 02: Right-click GetLibraryCardDialog and choose "Rename..."  
+    // and use the concatenation of the name of your Intent and the word "Dialog" as
+    // the new name of the class.  So it should look like YourIntentDialog
     public class GetLibraryCardDialog : ComponentDialog
     {
         // To localize a multilingual bot, use the approach outlined in the main VA Assistant's OnboardingDialog
         //private static OnboardingResponses _responder = new OnboardingResponses();
 
         // ToDo Phase 1 - Step 03: Right-click MembershipState and choose "Rename..." and 
-        // give your conversation state model class it's proper name 
+        // give your conversation state model class it's proper name.
         private IStatePropertyAccessor<MembershipState> _accessor;
         private MembershipState _state;
 
