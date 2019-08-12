@@ -62,7 +62,7 @@ in **MainDialog.cs**
 the following code to the `switch(intent)` statement:
 
 ```c#
-	case <YourSkillNameHere>.Intent.<YourIntentNameHere>:
+	case <YourSkillNameHere>.Intent.YourIntentName:
 	{
 		turnResult = await dc.BeginDialogAsync(nameof(YourIntentDialog));
 
