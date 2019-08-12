@@ -50,9 +50,15 @@ you'll be ready to integrate it into the `MainDialog`.
 `YourIntentDialog yourIntentCard,` to the constructor of the `MainDialog` class
 in **MainDialog.cs**
 > <img src="/Images/DialogDI.png" width="400">
-6. Locate the "Register dialogs" comment in the constructor and add:
-`AddDialog(YourIntentDialog);`
-6. While still in **MainDialog.cs**, navigate to the `RouteAsync()` method and add
+6. Locate the "Register dialogs" comment in the constructor and add `youIntentDialog`
+
+```c#
+	// Register dialogs
+	AddDialog(sampleDialog);
+	AddDialog(yourIntentDialog);
+```
+
+7. While still in **MainDialog.cs**, navigate to the `RouteAsync()` method and add
 the following code to the `switch(intent)` statement:
 
 ```c#
@@ -70,13 +76,13 @@ can go with "*Plan B*" and make the `case YourSkillName.Intent.Sample:`
 statement look like the following:
 > <img src="/Images/PlanBBeginDialog.png" width="600">
 
-7. Finally, register the dialog for dependency injection by opening *Startup.cs* and
+8. Finally, register the dialog for dependency injection by opening *Startup.cs* and
 choosing **Edit | Find and Replace | Quick Find** (or **Ctrl-F**) and typing **Register
 dialogs** in the search field and hit Return.  Now add 
 `services.AddTransient<GetLibraryCardDialog>();` and it should look like the following:
 > <img src="/Images/Startup.png" width="350">
 
-8. Now your ready to test out Phase 1.  Set your Skill to be the StartUp Project and 
+9. Now your ready to test out Phase 1.  Set your Skill to be the StartUp Project and 
 start the the degugger.  Now open your bot in the Bot Emulator and invoke your LUIS
 Intent.  If you didn't have a LUIS Intent and instead used Plan "B" then type **sample 
 dialog** to kick it off.
