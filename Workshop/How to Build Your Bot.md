@@ -3,10 +3,10 @@
 [Overview](#Overview)  
 [Plan](#Plan)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Workshop Prechecks and Prerequisites](#WorkshopPrechecksandPrerequisites)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Identify Scenarios  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Author Dialog, Design Cards, and Visualize  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Post Workshop) Define Actions and Supporting Activities  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Post Workshop) Review Design Guidelines  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Identify Scenarios](#IdentifyScenarios)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Author Dialog, Design Cards, and Visualize](#AuthorDialogDesignCardsandVisualize)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Post Workshop) Define Actions and Supporting Activities](#DefineActionsandSupportingActivities)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Post Workshop) Review Design Guidelines](#ReviewDesignGuidelines)  
 Build  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preface - Conversational AI fundamentals and Motivation  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1 - Create Your Virtual Assistant  
@@ -82,7 +82,7 @@ Although not exactly necessary, it&#39;s never a bad idea to update Visual Studi
 
 All these services will be created in this workshop and your developers should check to make sure they have permission to create them.  One way to confirm they have enough permissions is to create each of those resources/services in the Azure Portal and then turn right around and delete them.
 
-## Identify Scenarios
+## Identify Scenarios<a name=IdentifyScenarios />
 
 Knowing which scenarios the bot will be expected to handle is as important to the bot as knowing a person&#39;s job responsibilities are for a human.  Thinking about the bot as a real person can be very helpful in discovering scenarios.  When you hire a new employee, you tell them what you expect of them and what job duties they are expected to perform.  Think of the bot as a human performing a specific role and job duties.  What kinds of specific job duties do you want your bot to perform?  The answer to that question will be your scenarios.
 
@@ -94,7 +94,7 @@ If your bot were performing the role of a bank teller, some of the specific job 
 - Make withdrawal
 - Provide account balance
 
-## Author Dialog, Design Cards, and Visualize
+## Author Dialog, Design Cards, and Visualize<a name=AuthorDialogDesignCardsandVisualize />
 
 Continuing with this idea of thinking about the bot as a person, and having identified one or two key scenarios, it would be only natural to now wonder how each scenario should be handled.  What would a conversation for each scenario look like?  What kind of back and forth would be necessary for someone to gather enough information to carry out the goal of the scenario?  Essentially, you&#39;ll need to create a script, and in Conversational AI parlance, we call that script a &quot;dialog&quot;.  Dialog in this context means the conversation between the user and the bot, not a rectangle form on a computer screen.
 
@@ -114,7 +114,7 @@ The easiest way to model and design a dialog for a scenario is to simply jot it 
 
 It is possible to create a rich mockup of a dialog design using the [Chatdown tool](https://github.com/microsoft/botbuilder-tools/tree/master/packages/Chatdown) which is part of Microsoft&#39;s [bot-builder tools](https://github.com/microsoft/botbuilder-tools).  You can use this tool in cases where you&#39;d like to share a realistic &quot;design comp&quot; to internal business owners and stakeholders to get feedback and approval before spending the effort to build it.  For dialogs that only require simple answers (e.g. text answers) for each step in the conversation, the Chatdown tool might not provide any more value than the jot-down technique described previously.  But, for dialogs that will flow things like dropdown controls, radio boxes, buttons, and carousel cards, the Chatdown tool is very helpful in capturing that.  Note: Not all channels support rich dialogs (i.e. dialogs with non-text conversation) so you&#39;ll want to consider that when designing your dialogs.
 
-## (Post Workshop) Define Actions and Supporting Activities
+## (Post Workshop) Define Actions and Supporting Activities<a name=DefineActionsandSupportingActivities />
 
 Actions carry out the intent of the scenarios.  The goal of the dialog for a scenario is to gather enough information to be able to carry out its intent which you can think of as an action.  These actions will be integration points between the conversational AI of your bot and the application backend that will execute that task.
 
@@ -122,7 +122,7 @@ Some scenarios will also require additional external context from a database or 
 
 Early on in the development of your bot it&#39;s wise to simply mock these integration points so that you can take an agile approach and quickly iterate over your scenarios as you tune the conversation.  Integration points are always challenging and generally requires a lot of effort to implement so mocking them will allow you to concentrate on getting the conversation right without requiring the integration points to be constantly reworked.
 
-## (Post Workshop) Review Design Guidelines
+## (Post Workshop) Review Design Guidelines<a name=ReviewDesignGuidelines />
 
 Although it&#39;s not necessary for the workshop, reviewing the bot design guidelines [here](https://aka.ms/bot-framework-emulator-design-guidelines) will help beginners learn how to design bots that align with best practices and lessons learned by the Bot Framework team over the past several years.  These guidelines could be master after the workshop and used to finalize the bot&#39;s user experience.
 
