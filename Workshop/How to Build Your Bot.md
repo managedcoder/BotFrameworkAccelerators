@@ -59,7 +59,7 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 <table style="margin-left: -15px" border = "0" cellpadding = "0" cellspacing = "0">
   <tr >
     <td id="MasterPlanCell">
-		<image src="~/Images/BotDevelopmentPhases.png">
+		<image src="/Images/BotDevelopmentPhases.png">
 	</td>
     <td id="MasterPlanCell">
 		<table style="margin-top: -8px; border="0" cellpadding="0" cellspacing="0">
