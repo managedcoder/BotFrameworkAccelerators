@@ -2,7 +2,8 @@
 
 <img src="./Images/bot_framework_accelerators_header.png" >
 
-<img src="./Images/BotDevelopmentPhases.png">
+<table><tr><td><img src="./Images/BotDevelopmentPhases.png">
+</td></tr></table>
 
 # Overview
 
