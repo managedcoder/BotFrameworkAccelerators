@@ -1,0 +1,22 @@
+#MasterPlanHeading {
+    font-size: 14px;
+    margin: 0;
+}
+#MasterPlanDetail {
+    font-size: 11px;
+    margin-top: -2px;
+    margin: 0;
+}
+#MasterPlanCell {
+    vertical-align: top;
+    border-style: hidden !important;
+    background-color: white;
+}
+#MasterPlanRow {
+    border-style: hidden !important;
+    background-color: white;
+}
+#MasterPlanPublishCell {
+    position: relative;
+    top: 150px;
+}
