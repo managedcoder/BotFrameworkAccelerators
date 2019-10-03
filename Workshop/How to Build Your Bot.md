@@ -7,12 +7,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Author Dialog, Design Cards, and Visualize](#AuthorDialogDesignCardsandVisualize)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Post Workshop) Define Actions and Supporting Activities](#DefineActionsandSupportingActivities)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Post Workshop) Review Design Guidelines](#ReviewDesignGuidelines)  
-Build  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preface - Conversational AI fundamentals and Motivation  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1 - Create Your Virtual Assistant  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1.1 - Create, Deploy, and Run Your Virtual Assistant  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1.2 - Update NuGet Packages  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1.3 – Add Source Code to Local Git Repo  
+[Build](#Build)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Preface - Conversational AI fundamentals and Motivation](#ConversationalAIfundamentalsandMotivation)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 1 - Create Your Virtual Assistant](#CreateYourVirtualAssistant)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1.1 - [Create, Deploy, and Run Your Virtual Assistant](#CreateDeployandRunYourVirtualAssistant)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1.2 - [Update NuGet Packages](#UpdateNuGetPackages)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1.3 – [Add Source Code to Local Git Repo](#AddSourceCodetoLocalGitRepo)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 2 - Customize your Virtual Assistant  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3 - Update QnA Maker Knowledge Base (KB)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.1 – Edit &quot;faq&quot; Knowledge Base Name  
@@ -138,17 +138,17 @@ Although it&#39;s not necessary for the workshop, reviewing the bot design guide
 8. Step 7 - (Optional) Add a Built-in Skill to You Virtual Assistant
 9. Step 8 - Wrapping Up Build Stage
 
-## Preface - Conversational AI fundamentals and Motivation
+## Preface - Conversational AI fundamentals and Motivation<a name=ConversationalAIfundamentalsandMotivation />
 
 The first thing we do in the workshop is to get an understanding of the big picture.  Your workshop guide/instructor will take a few minutes to go over the fundamentals of Conversational AI and an overview of Microsoft Bot Framework so you&#39;ll understand key concepts and the various components of the Virtual Assistant architecture.  You can also take a look at overviews of [Conversation AI](https://blogs.microsoft.com/ai/microsoft-build-future-of-natural-language/), [Conversational AI Tools](https://azure.microsoft.com/en-us/blog/microsoft-conversational-ai-tools-enable-developers-to-build-connect-and-manage-intelligent-bots/),  [Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0), [Microsoft Bot Framework](https://github.com/Microsoft/botframework), [Virtual Assistant](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-virtual-assistant-introduction?view=azure-bot-service-4.0), [Bot Framework Solutions](https://microsoft.github.io/botframework-solutions/), and last but not least, the [Virtual Assistant Template](https://microsoft.github.io/botframework-solutions/overview/virtualassistant/).
 
-## Step 1 - Create Your Virtual Assistant
+## Step 1 - Create Your Virtual Assistant<a name=CreateYourVirtualAssistant />
 
 If you haven&#39;t already installed the Bot Builder prerequisites, follow the instructions here and then return here to Step 1 to continue with the workshop.
 
 The first step in developing your bot is to create an enterprise baseline for your new Virtual Assistant bot.  When you finish this step, you&#39;ll have a generic Virtual Assistant that&#39;s ready to be customized.
 
-### Step 1.1 - Create, Deploy, and Run Your Virtual Assistant
+### Step 1.1 - Create, Deploy, and Run Your Virtual Assistant<a name=CreateDeployandRunYourVirtualAssistant />
 
 Throughout this workshop you&#39;ll be using the [Bot Framework Solutions](https://microsoft.github.io/botframework-solutions/index) documentation. It&#39;s tasks-based, step-by-step instruction for building your bot.  You&#39;ll be pointed to the first step and you&#39;ll progress and complete the task by following the step navigation links at the lower righthand portion of each page.
 
@@ -162,7 +162,7 @@ So to create, deploy, and run your Virtual Assistant baseline [follow the steps 
 
 3. It can be helpful to author and save the CLI commands in something like Notepad since you&#39;ll no doubt run those commands over and over as you begin your bot journey.  Keep in mind those commands will have secrets in them so guard that file accordingly.
 
-### Step 1.2 - Update NuGet Packages
+### Step 1.2 - Update NuGet Packages<a name=UpdateNuGetPackages />
 
 Although not exactly necessary, it&#39;s a good idea to update the NuGet packages for each project in the solution (including the Skills projects you&#39;ll create later). After launching the Visual Studio and using the **Virtual Assistant** template under a **New Project** _(Steps 1-4 under the_ **Create your assistant** _section)_, please perform the following steps to update the NuGet Packages.
 
@@ -175,7 +175,7 @@ You can update the NuGet packages with these steps:
 5. Make sure you accept any EULAs that pop up.
 6. Lastly, build your application to ensure that all your dependencies are built and we check for errors before we get going. We do this by right-clicking the Solution and Click **Build**
 
-### Step 1.3 – Add Source Code to Local Git Repo
+### Step 1.3 – Add Source Code to Local Git Repo<a name=AddSourceCodetoLocalGitRepo />
 
 As you learn about developing bots, it&#39;s very helpful to know what files changed and how after the various bot tools are run (more about those tools later).  The easiest way to do that is to create a local Git repo in Visual Studio using the **Add to Source Control** command in the lower right corner of the Visual Studio IDE and then choose **Git** in the popup list.  You may see a warning dialog that says &quot;The current solution has projects that are located outside the project folder.  There projects will not be source controlled in the Git repository…&quot;.  You can safely ignore this warning, all you project will be added to the local Git repo.
 
