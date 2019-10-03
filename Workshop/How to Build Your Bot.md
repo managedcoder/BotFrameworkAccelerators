@@ -21,7 +21,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3.4 – Add Alternate Questions](#Step34AddAlternateQuestions)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3.5 – Add Metadata to Questions](#Step35AddMetadatatoQuestions)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3.6 – Turn on Active Learning](#Step36TurnonActiveLearning)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3.7 – Update Your Local Models](#Step37UpdateourLocalModels)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3.7 – Update Your Local Models](#Step37UpdateYourLocalModels)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Optional) Collaborate](#OptionalCollaborate)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4 - Add Your Core Skill](#Step4AddYourCoreSkill)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.1 – Create, Deploy, and Run Your Core Skill](#Step41CreateDeployandRunYourCoreSkill)  
@@ -322,7 +322,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 .\Deployment\Scripts\deploy.ps1
 
-### (Optional) What do these parameters mean?
+### (Optional) What do these parameters mean?<a name=OptionalWhatdotheseparametersmean />
 
 | **Parameter** | **Description** | **Required** |
 | --- | --- | --- |
