@@ -13,38 +13,38 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 1.1 - Create, Deploy, and Run Your Virtual Assistant](#CreateDeployandRunYourVirtualAssistant)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 1.2 - Update NuGet Packages](#UpdateNuGetPackages)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 1.3 – Add Source Code to Local Git Repo](#AddSourceCodetoLocalGitRepo)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 2 - Customize your Virtual Assistant  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3 - Update QnA Maker Knowledge Base (KB)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.1 – Edit &quot;faq&quot; Knowledge Base Name  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.2 – Delete Default Content  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.3 – Add QnA pair  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.4 – Add Alternate Questions  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.5 – Add Metadata to Questions  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.6 – Turn on Active Learning  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.7 – Update Your Local Models  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Optional) Collaborate  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 4 - Add Your Core Skill  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 4.1 – Create, Deploy, and Run Your Core Skill  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 4.2 - Update NuGet Packages  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5 - Implement Your Skill's Core Scenario  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5.1 - Add LUIS Intent in the LUIS portal  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5.2 - Update Skill and Assistant to include new Intent  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5.3 - Update Skill to Act on Intent and Begin Dialog with User  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 6 - (Optional) Add Multiturn QnA Prompts to Your Assistant  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 7 - (Optional) Add a Built-in Skill to Your Virtual Assistant  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Optional) What do these parameters mean?  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 8 - Wrapping Up Build Stage  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Changing Endpoint  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adding Secure Web Chat Control  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Configure DevOps  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unit Testing Bots (to complete CI/CD pipeline)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analyzing Bot Usage  
-Appendix – Important Links  
-Appendix – Publish Virtual Assistant or Skill using Visual Studio  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 2 - Customize your Virtual Assistant](#Step2CustomizeyourVirtualAssistant)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3 - Update QnA Maker Knowledge Base (KB)](#Step3UpdateQnAMakerKnowledgeBaseKB)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3.1 – Edit "faq" Knowledge Base Name](#Step31EditfaqKnowledgeBaseName)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3.2 – Delete Default Content](#Step32DeleteDefaultContent)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3.3 – Add QnA pair](#Step33AddQnApair)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3.4 – Add Alternate Questions](#Step34AddAlternateQuestions)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3.5 – Add Metadata to Questions](#Step35AddMetadatatoQuestions)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3.6 – Turn on Active Learning](#Step36TurnonActiveLearning)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3.7 – Update Your Local Models](#Step37UpdateourLocalModels)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Optional) Collaborate](#OptionalCollaborate)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4 - Add Your Core Skill](#Step4AddYourCoreSkill)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.1 – Create, Deploy, and Run Your Core Skill](#Step41CreateDeployandRunYourCoreSkill)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.2 - Update NuGet Packages](#Step42UpdateNuGetPackages)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 5 - Implement Your Skill's Core Scenario](#Step5ImplementYourSkillsCoreScenario)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 5.1 - Add LUIS Intent in the LUIS portal](#Step51AddLUISIntentintheLUISportal)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 5.2 - Update Skill and Assistant to include new Intent](#Step52UpdateSkillandAssistanttoincludenewIntent)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 5.3 - Update Skill to Act on Intent and Begin Dialog with User](#Step53UpdateSkilltoActonIntentandBeginDialogwithUser)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 6 - (Optional) Add Multiturn QnA Prompts to Your Assistant](#Step6OptionalAddMultiturnQnAPromptstoYourAssistant)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 7 - (Optional) Add a Built-in Skill to Your Virtual Assistant](#Step7OptionalAddaBuiltinSkilltoYourVirtualAssistant)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Optional) What do these parameters mean?](#OptionalWhatdotheseparametersmean)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 8 - Wrapping Up Build Stage](#Step8WrappingUpBuildStage)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Changing Endpoint](#ChangingEndpoint)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Adding Secure Web Chat Control](#AddingSecureWebChatControl)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Configure DevOps](#ConfigureDevOps)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Unit Testing Bots (to complete CI/CD pipeline)](#UnitTestingBotstocompleteCICDpipeline)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Analyzing Bot Usage](#AnalyzingBotUsage)  
+[Appendix – Important Links](#AppendixImportantLinks)  
+[Appendix – Publish Virtual Assistant or Skill using Visual Studio](#AppendixPublishVirtualAssistantorSkillusingVisualStudio)  
 
 # Overview
 
-This workshop **IS NOT** about how to build **A BOT** , it&#39;s about how to build **YOUR BOT**!  Think of it as a &quot;one-stop shop&quot; for building your first enterprise bot.  It&#39;s part recipe, part master plan, which you can use to accelerate your bot journey from conception to production deployment.  You&#39;ll use the **Plan** and **Build** links from the master plan to complete this workshop and then use the other links in the master plan as you continue to extend and refine your bot all the way through to production deployment.
+This workshop **IS NOT** about how to build **A BOT** , it's about how to build **YOUR BOT**!  Although you'll only execute the **Plan** and **Build** phases in this workshop, the links in the the master plan below will guide you through the remaining phases and accelerate your bot journey all the way through to production deployment.
 
 # Plan
 
@@ -54,7 +54,7 @@ This workshop **IS NOT** about how to build **A BOT** , it&#39;s about how to bu
 4. (Post Workshop) Define Actions and Supporting Activities
 5. (Post Workshop) Review Design Guidelines
 
-In the planning stage you&#39;ll take steps to prepare for an effective workshop that&#39;s been designed to accelerate the development of an enterprise grade bot.  These steps do not require participants to have any prior experience with the Microsoft Bot Framework.  Spending quality time preparing for the workshop is the best way to insure a successful outcome.  Steps 1 through 3 should be discussed in a pre-call with architect who will be leading the workshop.  Steps 4 and 5 can be reviewed for context before the workshop and followed up on post workshop.
+In the planning stage you'll take steps to prepare for an effective workshop that's been designed to accelerate the development of an enterprise grade bot.  These steps do not require participants to have any prior experience with the Microsoft Bot Framework.  Spending quality time preparing for the workshop is the best way to insure a successful outcome.  Steps 1 through 3 should be discussed in a pre-call with architect who will be leading the workshop.  Steps 4 and 5 can be reviewed for context before the workshop and followed up on post workshop.
 
 ## Workshop Prechecks and Prerequisites<a name=WorkshopPrechecksandPrerequisites />
 
@@ -179,23 +179,23 @@ You can update the NuGet packages with these steps:
 
 As you learn about developing bots, it&#39;s very helpful to know what files changed and how after the various bot tools are run (more about those tools later).  The easiest way to do that is to create a local Git repo in Visual Studio using the **Add to Source Control** command in the lower right corner of the Visual Studio IDE and then choose **Git** in the popup list.  You may see a warning dialog that says &quot;The current solution has projects that are located outside the project folder.  There projects will not be source controlled in the Git repository…&quot;.  You can safely ignore this warning, all you project will be added to the local Git repo.
 
-## Step 2 - Customize your Virtual Assistant
+## Step 2 - Customize your Virtual Assistant<a name=Step2CustomizeyourVirtualAssistant />
 
 Now that you&#39;ve got a generic Virtual Assistant enterprise baseline working, you&#39;re ready to customize it for your scenario.  For this workshop, the only customization step we&#39;ll do is to edit the greeting. The customization of editing responses involves localizing resource strings which aren&#39;t leveraged in this workshop, so we&#39;ll skip that.  Customizing cognitive models is covered elsewhere in this workshop, so we&#39;ll skip that too.  To customize the greeting, complete the [&quot;edit your greeting&quot; step here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/customize-assistant/2_edit_your_greeting/) and then return to this documentation for next steps.
 
-## Step 3 - Update QnA Maker Knowledge Base (KB)
+## Step 3 - Update QnA Maker Knowledge Base (KB)<a name=Step3UpdateQnAMakerKnowledgeBaseKB />
 
 The deployment steps you followed earlier created several services that the Virtual Assistant seamlessly stitches together to form a synergistic bot solution. One of those was a QnA Maker service called &quot;faq&quot;.  In this step, you&#39;ll modify that &quot;faq&quot; knowledge base (KB) by removing the default content and replacing it with QnA content of your own.
 
-### Step 3.1 – Edit &quot;faq&quot; Knowledge Base Name
+### Step 3.1 – Edit &quot;faq&quot; Knowledge Base Name<a name=Step31EditfaqKnowledgeBaseName />
 
 Navigate to the QnA Maker Portal at [https://www.qnamaker.ai](https://www.qnamaker.ai), sign in, and then [follow these steps](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/edit-knowledge-base#edit-your-knowledge-base-content) to change the name of the knowledge base from &quot;faq&quot; to something more specific to your bot like &quot;\&lt;yourBotName\&gt; faq&quot; so it will be easier to identify later when you have more knowledge bases.   Knowledge base name will be the first setting you see on that page.  For now, don&#39;t worry about changing any of the other settings in those instructions and proceed to the next step.
 
-### Step 3.2 – Delete Default Content
+### Step 3.2 – Delete Default Content<a name=Step32DeleteDefaultContent />
 
 To delete the default QnA content, switch to the **Edit** page, and [follow the instructions for deleting content you don&#39;t want here](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/edit-knowledge-base#delete-a-qna-pair).
 
-### Step 3.3 – Add QnA pair
+### Step 3.3 – Add QnA pair<a name=Step33AddQnApair />
 
 On the **Edit** page, select **Add QnA pair,** to add a new row to the knowledge base table as [you can see here](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/edit-knowledge-base#add-a-qna-pair).
 
@@ -205,11 +205,11 @@ If you want to import QnA content, plan on looking over every question and answe
 
 To add QnA content, select the **Setting** page and then in the **Manage knowledge base** section, enter the URL to the content type you want to import in the **URL** field and then click **Add URL**.  Repeat those steps for every source you&#39;d like to add to the KB.  When you&#39;re finished, click **Save and train** and then click **Publish**.
 
-### Step 3.4 – Add Alternate Questions
+### Step 3.4 – Add Alternate Questions<a name=Step34AddAlternateQuestions />
 
 QnA Maker is really good at inferring what questions users are asking, even if they don&#39;t ask it exactly how they were entered in QnA Maker.  Sometimes though, questions can be asked in such a different way that you&#39;ll need to add alternate forms of a question so QnA Maker will be able to map that to the answer.  To add alternate question [follow the instructions here](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/edit-knowledge-base#add-alternate-questions).
 
-### Step 3.5 – Add Metadata to Questions
+### Step 3.5 – Add Metadata to Questions<a name=Step35AddMetadatatoQuestions />
 
 Adding metadata to a question and answer set allows your client application to request filtered answers. This filter is applied before the [first and second rankers](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/concepts/knowledge-base#ranker-process) are applied.  Once metadata is added to a question-and-answer set, the client application can:
 
@@ -220,11 +220,11 @@ To add metadata to questions, [follow the instructions here](https://docs.micros
 
 **Note** : Over time, as you develop your assistant, you might decide to add additional QnA Knowledgebases (or refactor your current Knowledgebase into multiple Knowledgebases) and the instructions for how to do that are located [here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/customize-assistant/4_edit_your_cognitive_models/) in the **Add an additional knowledgebase** section.
 
-### Step 3.6 – Turn on Active Learning
+### Step 3.6 – Turn on Active Learning<a name=Step36TurnonActiveLearning />
 
 Active Learning is a [compelling feature that you can read about here](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/improve-knowledge-base) and [turn it on by following the instructions here](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/improve-knowledge-base#turn-on-active-learning-to-see-suggestions).
 
-### Step 3.7 – Update Your Local Models
+### Step 3.7 – Update Your Local Models<a name=Step37UpdateYourLocalModels />
 
 You&#39;ve been making changes to the knowledge base in the QnA Maker portal.  In order to see those changes in the running bot, you&#39;ll need to run an update script to regenerate the Dispatcher.
 
@@ -234,15 +234,15 @@ Run the following command from within Powershell (pwsh.exe) within your assistan
 
 Now test your bot using the Bot Emulator
 
-### (Optional) Collaborate
+### (Optional) Collaborate<a name=OptionalCollaborate />
 
 Although it not a concern during the workshop, many organizations will need to know how to setup QnA Maker so that several people can collaborate on a single QnA Maker KB.  Instructions for doing that can be found [here](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/collaborate-knowledge-base).
 
-## Step 4 - Add Your Core Skill
+## Step 4 - Add Your Core Skill<a name=Step4AddYourCoreSkill />
 
 A key feature of the Virtual Assistant (VA) is its Skills-based architecture.  Skills are the heart of a VA bot and they are what gives a VA bot its behavior.  Skills are the unit of modularization for VA bots.  Typically, a bot will have a single core skill and one or more companion skills that complement the core skill and create a richer, more knowledgeable bot.  ­
 
-### Step 4.1 – Create, Deploy, and Run Your Core Skill­
+### Step 4.1 – Create, Deploy, and Run Your Core Skill­<a name=Step41CreateDeployandRunYourCoreSkill­ />
 
 In this step, you&#39;ll add a custom skill that you&#39;ll use to implement your bot&#39;s core skill following the same task-based instructions you used earlier where the navigation link was in the bottom righthand corner of the page.  To create, deploy, and run your Skill, [follow the steps here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/create-skill/1_intro/) and return to this documentation when you complete all the steps and see the  &quot;Next Steps&quot; navigation link.
 
@@ -250,23 +250,23 @@ In this step, you&#39;ll add a custom skill that you&#39;ll use to implement you
 
 **Also Note:** When deploying your bot, use debug packages, not release.
 
-### Step 4.2 - Update NuGet Packages
+### Step 4.2 - Update NuGet Packages<a name=Step42UpdateNuGetPackages />
 
 Follow the same steps for updating the NuGet packages as you did for the Assistant earlier
 
-## Step 5 - Implement Your Skill&#39;s Core Scenario
+## Step 5 - Implement Your Skill's Core Scenario<a name=Step5ImplementYourSkillsCoreScenario />
 
 The previous step added a custom skill to your virtual assistant but that was a baseline for a skill which doesn&#39;t understand how to do anything useful or specific to your business.  In this step we&#39;ll teach your custom skill to understand what users are saying and then the skill can act on that understanding to take action.
 
 Understanding what users are saying is the job of Azure&#39;s Language Understand (LUIS) service.  This service allows your skill to understand what users mean (i.e. their _intent_), no matter how they say it.  Part of what happened in the previous step when we deployed your core skill was the creation of your skill&#39;s LUIS application.  The task now is to add a language model to your skill&#39;s LUIS application that can recognize when the user is asking for the core scenario of your bot.
 
-### Step 5.1 - Add LUIS Intent in the LUIS portal
+### Step 5.1 - Add LUIS Intent in the LUIS portal<a name=Step51AddLUISIntentintheLUISportal />
 
  To add your core LUIS Intent, you&#39;ll need to add an Intent for the skill&#39;s core scenario following the instructions [here](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-how-to-add-intents) and, if applicable, add Entities following the instructions [here](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-how-to-add-example-utterances).
 
 You can test out the LUIS model in the portal to make sure it&#39;s recognizing utterances correctly and when you have that working you can move to the next step.
 
-### Step 5.2 - Update Skill and Assistant to include new Intent
+### Step 5.2 - Update Skill and Assistant to include new Intent<a name=Step52UpdateSkillandAssistanttoincludenewIntent />
 
 After you&#39;ve added your bot&#39;s first core intents in the luis.ai portal, follow the steps below to update your Skill and Assistant to include the new Intent you created in the previous step.
 
@@ -288,17 +288,17 @@ After you&#39;ve added your bot&#39;s first core intents in the luis.ai portal, 
   - **oo**** luisgen .\Deployment\Resources\LU\en\ ****\&lt;skill name\&gt;****.luis -cs**
 **\&lt;skill name\&gt;**** Luis -o .\Services**
 
-### Step 5.3 - Update Skill to Act on Intent and Begin Dialog with User
+### Step 5.3 - Update Skill to Act on Intent and Begin Dialog with User<a name=Step53UpdateSkilltoActonIntentandBeginDialogwithUser />
 
 We&#39;re finally where the rubber meets the road and we&#39;re ready to code what action the skill should take in response to recognizing the _intent_ of the user.  In the planning phase you designed the core conversation your skill needs to be able to handle.  In this step we&#39;re going to create a ComponentDialog that uses a WaterfallDialog to handle the conversation flow of your core scenario.  To make life easy, we&#39;ll implement this core scenario using a dialog accelerator and step-by-step instructions that can be found [here](https://github.com/managedcoder/BotFrameworkAccelerators/tree/master/DialogAccelerator).
 
-## Step 6 - (Optional) Add Multiturn QnA Prompts to Your Assistant
+## Step 6 - (Optional) Add Multiturn QnA Prompts to Your Assistant<a name=Step6OptionalAddMultiturnQnAPromptstoYourAssistant />
 
 _[_ **Important!!!!** _ The Virtual Assistant Template and bot framework tools have not yet been updated to respect multiturn follow-on prompts so the following is a temporary workaround and some follow-on prompts will not work properly.  You can use this_ _topic_ _to explore follow-on prompts in your assistant, but the SDK will eventually be updated and obviate this workaround.  Bottom line – this code should be removed before the assistant is deployed in production or once the SDK has been updated.  When the SDK is updated, this section will be updated with the proper instructions on how to incorporate follow-on prompts]_
 
 In this next topic we&#39;ll use follow-up prompts to create a multiturn QnA conversation as described [here](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/multiturn-conversation).  The new QnA Maker Follow-on prompts do not automatically appear in bot clients so you must add code to make that happen.  This topic will show you how to add the ability to show the new QnA Maker follow-on prompts in your new assistant.  Follow the steps described [here](https://github.com/managedcoder/BotFrameworkAccelerators/tree/master/MultiturnQnAMaker) skipping the first step related to creating and deploying your assistant since you&#39;ve already done that.
 
-## Step 7 - (Optional) Add a Built-in Skill to Your Virtual Assistant
+## Step 7 - (Optional) Add a Built-in Skill to Your Virtual Assistant<a name=Step7OptionalAddaBuiltinSkilltoYourVirtualAssistant />
 
 Adding a built-in skill is an optional part of the workshop since and the built-in skill are not always a good fit for every bot.  The Microsoft Bot Framework includes several built-in skills that can be added to your bot which can be found [here](https://github.com/microsoft/botframework-solutions/blob/master/docs/overview/skills.md).  If you&#39;d like to get a feel for how built-in skills works you might consider adding the To Do Skill since it&#39;s useful and straight forward.
 
@@ -333,9 +333,9 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 1. Now follow same instructions for adding a custom skill skipping to the Test Your Skill step found [here](https://github.com/microsoft/botframework-solutions/blob/master/docs/tutorials/csharp/skill.md#test-your-skill)
 
-## Step 8 - Wrapping Up Build Stage
+## Step 8 - Wrapping Up Build Stage<a name=Step8WrappingUpBuildStage />
 
-### Changing Endpoint
+### Changing Endpoint<a name=ChangingEndpoint />
 
 Access to LUIS application endpoints are metered by [endpoint keys](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-concept-keys).  By default, the prediction endpoint of your LUIS applications is configured to use the Authoring Key which has a [1,000-call-per-month query limit](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fcognitive-services%2FLUIS%2Fluis-boundaries%23key-limits&amp;data=02%7C01%7Cruwill%40microsoft.com%7C36258b98398b487ee70408d6fcb363da%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636974245219442750&amp;sdata=4fUueoPVVaLRuxCP6IyyyhP49la7DK6QcYIWDRMORX4%3D&amp;reserved=0).  When building quick bot demos that will only see limited use, the Authoring Key is fine.  For production development, you&#39;ll need:
 
@@ -345,17 +345,17 @@ Access to LUIS application endpoints are metered by [endpoint keys](https://docs
 
 If you don&#39;t change your LUIS endpoint you&#39;ll run the risk of running out of quota and [hitting HTTP 403 or HTTP 429 errors](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fcognitive-services%2FLUIS%2Fluis-concept-keys%23key-limit-errors&amp;data=02%7C01%7Cruwill%40microsoft.com%7C36258b98398b487ee70408d6fcb363da%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636974245219442750&amp;sdata=WtCYeOa8c5sBo2RZ9kEuJ713m%2BgdRLlC%2FMCtJINhojM%3D&amp;reserved=0).
 
-### Adding Secure Web Chat Control
+### Adding Secure Web Chat Control<a name=AddingSecureWebChatControl />
 
 A very common deployment scenario for bots is to embed a Web Chat Control in a web page.  The Azure portal makes this easy by providing an HTML \&lt;iframe\&gt; snippet that can be copied and pasted into a web app.  The problem with that approach is that it exposes your bot secret which would allow any client to connect to it.  There is an alternative that allows you to embed the Web Chat Control in a secure fashion and instructions for do that can be found [here](https://github.com/managedcoder/BotFrameworkAccelerators/tree/master/SecuredWebChatControl).
 
-### Configure DevOps
+### Configure DevOps<a name=ConfigureDevOps />
 
 Setting up DevOps as early as possible in development is critical to modern development and you can establish a core DevOps Continuous Deployment baseline by following the instructions [here](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0).  As your bot development progresses, you&#39;ll need to mature your DevOps pipeline to target new deployment environments that might not exist early on.  Having a core DevOps baseline will allow you to incrementally automate bot specific processes and discipline in a very pragmatic fashion.
 
 [https://channel9.msdn.com/Series/DevOps-for-the-Bot-Framework](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fchannel9.msdn.com%2FSeries%2FDevOps-for-the-Bot-Framework&amp;data=02%7C01%7Cruwill%40microsoft.com%7C36258b98398b487ee70408d6fcb363da%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636974245219422763&amp;sdata=f4G%2Fj%2BW474ilk4W8s41edl9n9VvRUnqn4tWebs0n%2FaQ%3D&amp;reserved=0)which has pointers to all stages.
 
-### Unit Testing Bots (to complete CI/CD pipeline)
+### Unit Testing Bots (to complete CI/CD pipeline)<a name=UnitTestingBotstocompleteCICDpipeline />
 
 [https://www.microsoft.com/developerblog/2017/01/20/unit-testing-for-bot-applications/](https://www.microsoft.com/developerblog/2017/01/20/unit-testing-for-bot-applications/)
 
@@ -363,7 +363,7 @@ Setting up DevOps as early as possible in development is critical to modern deve
 
 [https://blogs.msdn.microsoft.com/jamiedalton/2017/03/08/devops-with-bots-cicd-pipeline-with-the-botframework-and-azure-end-to-end-walkthrough/](https://blogs.msdn.microsoft.com/jamiedalton/2017/03/08/devops-with-bots-cicd-pipeline-with-the-botframework-and-azure-end-to-end-walkthrough/)
 
-### Analyzing Bot Usage
+### Analyzing Bot Usage<a name=AnalyzingBotUsage />
 
 One of the most critical phases in the life of a bot is the Evaluation stage and a key part of that stage is analyzing bot usage, but because this workshop ends at the Build stage and because analyzing bot usage can be a useful tool during Usability Testing (i.e. testing with representative users or internal project stakeholders and business owners) we include a discussion of it here.
 
@@ -373,13 +373,13 @@ One of the most critical phases in the life of a bot is the Evaluation stage and
 - [Advanced Custom Insights](https://github.com/microsoft/botframework-solutions/blob/master/docs/reference/analytics/applicationinsights.md)
 - Active Learning for [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/improve-knowledge-base) and [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-concept-review-endpoint-utterances)
 
-# Appendix – Important Links
+# Appendix – Important Links<a name=AppendixImportantLinks />
 
 Bot Framework Solutions Repository for Conversational Assistant
 
 - [https://github.com/Microsoft/botframework-solutions](https://github.com/Microsoft/botframework-solutions)
 
-# Appendix – Publish Virtual Assistant or Skill using Visual Studio
+# Appendix – Publish Virtual Assistant or Skill using Visual Studio<a name=AppendixPublishVirtualAssistantorSkillusingVisualStudio />
 
 Publishing a Virtual Assistant using Visual Studio is slightly different than what most developers are used to doing when they use the Visual Studio Publishing Wizard since the App Service has already been created.  This means the flow changes to allow for the existing App Service to be selected in the publishing wizard rather than created as is normally the case.  Here are the steps.
 
