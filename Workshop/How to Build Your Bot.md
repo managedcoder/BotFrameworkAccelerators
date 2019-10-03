@@ -52,16 +52,12 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 
 # Master Plan
 
-<table border = "0" cellpadding = "0" cellspacing = "0">
-  <tr height="50px" >
-    <td colspan = "2" style="border-style : hidden!important; font-size: 28px">How to Build Your Bot</td>
-  </tr>
-  <tr  >
-    <td colspan = "2" style="border-style : hidden!important; font-style: italic; font-size: 11px">Master Plan for Building a Virtual Assistant using the Microsoft Bot Framework</td>
-  </tr>
-  <tr>
-    <td style="border-style : hidden!important;background-color: white">Row 2 Cell 1</td>
-    <td style="border-style : hidden!important;;background-color: white">Row 2 Cell 2</td>
+<p style=" font-size: 28px">How to Build Your Bot </p>
+<p style="margin-top: -20px;font-style: italic; font-size: 12px">Master Plan for Building a Virtual Assistant using the Microsoft Bot Framework</p>
+<table style="margin-left: -15px" border = "0" cellpadding = "0" cellspacing = "0">
+  <tr >
+    <td style="virtical-alignment: top; border-style: hidden!important;background-color: white"><image src="./Images/BotDevelopmentPhases.png"></td>
+    <td style="border-style: hidden!important;;background-color: white">*Row* 2 Cell 2</td>
   </tr>
 </table>
 
