@@ -2,7 +2,7 @@
 
 <img src="./Images/bot_framework_accelerators_header.png" >
 
-<table><tr><td><img src="./Images/BotDevelopmentPhases.png">
+<table style="margin-left: -15px" border = "0" cellpadding = "0" cellspacing = "0"><tr><td id="MasterPlanCell"><img src="./Images/BotDevelopmentPhases.png">
 </td></tr></table>
 
 # Overview
