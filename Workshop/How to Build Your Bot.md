@@ -1,3 +1,11 @@
+<img src="./Images/bot_framework_accelerators_header.png" >
+
+# Overview
+
+This workshop will guide you step-by-step through the process of developing an enterprise bot using the Microsoft Bot Framework and the Azure Bot Service.  It's designed to acclerate the development of a Minimal Viable Product (MVP) that minimizes the time-to-value.  So this workshop  **IS NOT** about how to build **A BOT** , it's about how to build **YOUR BOT**!  Think of it as the first sprint of your bot's MVP milestone.  
+
+Although you'll only execute the **Plan** and **Build** phases in this workshop, you can use the links in the the master plan below to guide you through the remaining phases and accelerate your bot journey all the way through to production deployment.
+
 # Contents
 
 [Overview](#Overview)  
@@ -41,10 +49,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Analyzing Bot Usage](#AnalyzingBotUsage)  
 [Appendix – Important Links](#AppendixImportantLinks)  
 [Appendix – Publish Virtual Assistant or Skill using Visual Studio](#AppendixPublishVirtualAssistantorSkillusingVisualStudio)  
-
-# Overview
-
-This workshop **IS NOT** about how to build **A BOT** , it's about how to build **YOUR BOT**!  Although you'll only execute the **Plan** and **Build** phases in this workshop, the links in the the master plan below will guide you through the remaining phases and accelerate your bot journey all the way through to production deployment.
 
 # Plan
 

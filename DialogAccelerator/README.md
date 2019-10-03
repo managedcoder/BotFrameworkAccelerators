@@ -36,7 +36,7 @@ with this dialog and then choose **Add**
 
 2. Copy the entire source code of GetLibraryCard.cs found [here](GetLibraryCard.cs) into
 your paste buffer by clicking the **Raw** button and then Control-A and then Control-C 
-> <img src="/Images/RawButton.png" width="200">
+> <img src="./Images/RawButton.png" width="200">
 3. Switch back Visual Studio and delete the entire contents of the file you created
 in Step 1 and replace it with the current contents of your paste buffer (Control-V)
 
@@ -49,7 +49,7 @@ you'll be ready to integrate it into the `MainDialog`.
 5. Dependency-inject the dialog into `MainDialog` by adding 
 `YourIntentDialog yourIntentCard,` to the constructor of the `MainDialog` class
 in **MainDialog.cs**
-> <img src="/Images/DialogDI.png" width="400">
+> <img src="./Images/DialogDI.png" width="400">
 6. Locate the "Register dialogs" comment in the constructor and add `youIntentDialog`
 
 ```c#
@@ -70,17 +70,17 @@ the following code to the `switch(intent)` statement:
 	}
 ```
 
-> <img src="/Images/BeginDialog.png" width="800">
+> <img src="./Images/BeginDialog.png" width="800">
 If you don't have a LUIS Intent that corresponds to this new dialog yet, you
 can go with "*Plan B*" and make the `case YourSkillName.Intent.Sample:`
 statement look like the following:
-> <img src="/Images/PlanBBeginDialog.png" width="600">
+> <img src="./Images/PlanBBeginDialog.png" width="600">
 
 8. Finally, register the dialog for dependency injection by opening *Startup.cs* and
 choosing **Edit | Find and Replace | Quick Find** (or **Ctrl-F**) and typing **Register
 dialogs** in the search field and hit Return.  Now add 
 `services.AddTransient<YourIntentDialog>();` and it should look like the following:
-> <img src="/Images/Startup.png" width="350">
+> <img src="./Images/Startup.png" width="350">
 
 9. Now your ready to test out Phase 1.  Set your Skill to be the StartUp Project and 
 start the the degugger.  Now open your bot in the Bot Emulator and invoke your LUIS
