@@ -2,6 +2,8 @@
 
 <img src="./Images/bot_framework_accelerators_header.png" >
 
+<img src="./Images/BotDevelopmentPhases.png">
+
 # Overview
 
 This workshop will guide you step-by-step through the process of developing an enterprise bot using the Microsoft Bot Framework and the Azure Bot Service.  It's designed to acclerate the development of a Minimal Viable Product (MVP) while minimizing the time-to-value.  So this workshop  **IS NOT** about how to build **A BOT** , it's about how to build **YOUR BOT**!  Think of it as the first sprint of your bot's MVP milestone.  
@@ -60,7 +62,7 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 <table style="margin-left: -15px" border = "0" cellpadding = "0" cellspacing = "0">
   <tr >
     <td id="MasterPlanCell">
-		<image src="/Images/BotDevelopmentPhases.png">
+		<img src="./Images/BotDevelopmentPhases.png">
 	</td>
     <td id="MasterPlanCell">
 		<table style="margin-top: -8px; border="0" cellpadding="0" cellspacing="0">
