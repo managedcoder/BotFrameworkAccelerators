@@ -65,7 +65,7 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 		<table style="margin-top: -8px; border="0" cellpadding="0" cellspacing="0">
 			<tr id="MasterPlanRow">
 				<td >
-					<p id="MasterPlanHeading"><a href="#plan">Plan:</a></p>
+					<p id="MasterPlanHeading"><a href="#plan">Plan1:</a></p>
 					<p id="MasterPlanDetail">Workshop Prechecks and Prerequisites</p>
 					<p id="MasterPlanDetail">Identify Scenarios</p>
 					<p id="MasterPlanDetail">Author Dialogs, design cards, visualize</p>
