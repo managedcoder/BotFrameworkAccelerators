@@ -1,86 +1,46 @@
-Table of Contents
+# Contents
 
-Overview        2
-
-Plan        3
-
-Workshop Prechecks and Prerequisites        3
-
-Identify Scenarios        4
-
-Author Dialog, Design Cards, and Visualize        4
-
-(Post Workshop) Define Actions and Supporting Activities        5
-
-(Post Workshop) Review Design Guidelines        5
-
-Build        6
-
-Preface - Conversational AI fundamentals and Motivation        6
-
-Step 1 - Create Your Virtual Assistant        6
-
-Step 1.1 - Create, Deploy, and Run Your Virtual Assistant        6
-
-Step 1.2 - Update NuGet Packages        6
-
-Step 1.3 – Add Source Code to Local Git Repo        7
-
-Step 2 - Customize your Virtual Assistant        7
-
-Step 3 - Update QnA Maker Knowledge Base (KB)        7
-
-Step 3.1 – Edit &quot;faq&quot; Knowledge Base Name        7
-
-Step 3.2 – Delete Default Content        7
-
-Step 3.3 – Add QnA pair        8
-
-Step 3.4 – Add Alternate Questions        8
-
-Step 3.5 – Add Metadata to Questions        8
-
-Step 3.6 – Turn on Active Learning        8
-
-Step 3.7 – Update Your Local Models        9
-
-(Optional) Collaborate        9
-
-Step 4 - Add Your Core Skill        9
-
-Step 4.1 – Create, Deploy, and Run Your Core Skill        9
-
-Step 4.2 - Update NuGet Packages        9
-
-Step 5 - Implement Your Skill&#39;s Core Scenario        9
-
-Step 5.1 - Add LUIS Intent in the LUIS portal        10
-
-Step 5.2 - Update Skill and Assistant to include new Intent        10
-
-Step 5.3 - Update Skill to Act on Intent and Begin Dialog with User        10
-
-Step 6 - (Optional) Add Multiturn QnA Prompts to Your Assistant        10
-
-Step 7 - (Optional) Add a Built-in Skill to Your Virtual Assistant        11
-
-(Optional) What do these parameters mean?        12
-
-Step 8 - Wrapping Up Build Stage        12
-
-Changing Endpoint        12
-
-Adding Secure Web Chat Control        13
-
-Configure DevOps        13
-
-Unit Testing Bots (to complete CI/CD pipeline)        13
-
-Analyzing Bot Usage        13
-
-Appendix – Important Links        14
-
-Appendix – Publish Virtual Assistant or Skill using Visual Studio        15
+[Overview](#Overview)  
+[Plan](#Plan)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Workshop Prechecks and Prerequisites](#WorkshopPrechecksandPrerequisites)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Identify Scenarios  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Author Dialog, Design Cards, and Visualize  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Post Workshop) Define Actions and Supporting Activities  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Post Workshop) Review Design Guidelines  
+Build  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preface - Conversational AI fundamentals and Motivation  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1 - Create Your Virtual Assistant  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1.1 - Create, Deploy, and Run Your Virtual Assistant  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1.2 - Update NuGet Packages  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 1.3 – Add Source Code to Local Git Repo  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 2 - Customize your Virtual Assistant  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3 - Update QnA Maker Knowledge Base (KB)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.1 – Edit &quot;faq&quot; Knowledge Base Name  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.2 – Delete Default Content  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.3 – Add QnA pair  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.4 – Add Alternate Questions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.5 – Add Metadata to Questions  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.6 – Turn on Active Learning  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 3.7 – Update Your Local Models  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Optional) Collaborate  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 4 - Add Your Core Skill  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 4.1 – Create, Deploy, and Run Your Core Skill  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 4.2 - Update NuGet Packages  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5 - Implement Your Skill's Core Scenario  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5.1 - Add LUIS Intent in the LUIS portal  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5.2 - Update Skill and Assistant to include new Intent  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 5.3 - Update Skill to Act on Intent and Begin Dialog with User  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 6 - (Optional) Add Multiturn QnA Prompts to Your Assistant  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 7 - (Optional) Add a Built-in Skill to Your Virtual Assistant  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Optional) What do these parameters mean?  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step 8 - Wrapping Up Build Stage  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Changing Endpoint  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adding Secure Web Chat Control  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Configure DevOps  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unit Testing Bots (to complete CI/CD pipeline)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Analyzing Bot Usage  
+Appendix – Important Links  
+Appendix – Publish Virtual Assistant or Skill using Visual Studio  
 
 # Overview
 
@@ -96,17 +56,11 @@ This workshop **IS NOT** about how to build **A BOT** , it&#39;s about how to bu
 
 In the planning stage you&#39;ll take steps to prepare for an effective workshop that&#39;s been designed to accelerate the development of an enterprise grade bot.  These steps do not require participants to have any prior experience with the Microsoft Bot Framework.  Spending quality time preparing for the workshop is the best way to insure a successful outcome.  Steps 1 through 3 should be discussed in a pre-call with architect who will be leading the workshop.  Steps 4 and 5 can be reviewed for context before the workshop and followed up on post workshop.
 
-## Workshop Prechecks and Prerequisites
+## Workshop Prechecks and Prerequisites<a name=WorkshopPrechecksandPrerequisites />
 
 A critical step in preparing for the workshop is installing the bot framework SDK and tools and making sure you have enough permissions in your Azure Subscription to create all the resources and services required by the Virtual Assistant Template.  Normally, these installation steps are done in the workshop itself, but its important to confirm that the attendees have enough permissions to install software on their development PC before the workshop starts (i.e. admin rights to the PC).
 
 There are two sets of prerequisites that must be installed: Virtual Assistant and Skills prerequisites.  The instructions for both must be followed exactly or you will experience strange errors later when you try to build your bot and it won&#39;t be obvious that the errors you are seeing are a result of improper installation.  The prerequisites that need to be installed for the Virtual Assistant can be found [here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/create-assistant/2_download_and_install/) and the second set of installation steps for Skills can be found [here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/create-skill/2_download_and_install/).  For Skills, you only need to do step 1 where you install the Skills template since the rest of those installation steps are redundant.  If you find yourself unsure of what to do in any of the installation steps, you can look at
-#
-[ANNOTATION:
-
-BY &#39;Joey Brakefield&#39;
-ON &#39;2019-08-10T13:05:00&#39;JB
-NOTE: &#39;This link is local to Russ&#39;s desktop. Need to Update @Russ Williams&#39;]
 [this short screen recording](../../C:%5C%5CUsers%5C%5Cruwill.NORTHAMERICA%5C%5CDownloads%5C%5Cadd%20this%20later) that shows the whole process end-to-end.
 
 Although not exactly necessary, it&#39;s never a bad idea to update Visual Studio which you can do by launching it and choosing **Help | Check for Updates**.  This can safely be done before workshop begins.
