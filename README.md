@@ -5,8 +5,8 @@ on the [Microsoft Bot Framework](https://dev.botframework.com/) and the [Virtual
 This repository is NOT an official Microsoft repository nor is it part of the Micorosoft Bot Framework but you should find
 it useful.
 
-## [Bot Development Accelerator Workshop](Workshop)
-This workshop is a "one-stop shop" for building your first enterprise bot.  Its part recipe, part master plan, which you can 
+## [Bot Accelerator Workshop](Workshop)
+This workshop is a step-by-step guide for building your first enterprise bot.  Its part recipe, part master plan, which you can 
 use to accelerate your bot journey from conception to production deployment. 
 
 ## [Secure Your Web Chat Control](SecuredWebChatControl)

@@ -2,9 +2,9 @@
 
 # Overview
 
-This workshop will guide you step-by-step through the process of developing an enterprise bot using the Microsoft Bot Framework and the Azure Bot Service.  It's designed to acclerate the development of a Minimal Viable Product (MVP) that minimizes the time-to-value.  So this workshop  **IS NOT** about how to build **A BOT** , it's about how to build **YOUR BOT**!  Think of it as the first sprint of your bot's MVP milestone.  
+This workshop will guide you step-by-step through the process of developing an enterprise bot using the Microsoft Bot Framework and the Azure Bot Service.  It's designed to acclerate the development of a Minimal Viable Product (MVP) while minimizing the time-to-value.  So this workshop  **IS NOT** about how to build **A BOT** , it's about how to build **YOUR BOT**!  Think of it as the first sprint of your bot's MVP milestone.  
 
-Although you'll only execute the **Plan** and **Build** phases in this workshop, you can use the links in the the master plan below to guide you through the remaining phases and accelerate your bot journey all the way through to production deployment.
+Although you'll only execute the **Plan** and **Build** phases in this workshop, you can use the links in the the [master plan](#MAsterPlan) below to guide you through the remaining phases and accelerate your bot journey all the way through to production deployment.
 
 # Contents
 
@@ -49,6 +49,21 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Analyzing Bot Usage](#AnalyzingBotUsage)  
 [Appendix – Important Links](#AppendixImportantLinks)  
 [Appendix – Publish Virtual Assistant or Skill using Visual Studio](#AppendixPublishVirtualAssistantorSkillusingVisualStudio)  
+
+# Master Plan
+
+<table border = "0" cellpadding = "0" cellspacing = "0">
+  <tr height="50px" >
+    <td colspan = "2" style="border-style : hidden!important; font-size: 28px">How to Build Your Bot</td>
+  </tr>
+  <tr  >
+    <td colspan = "2" style="border-style : hidden!important; font-style: italic; font-size: 11px">Master Plan for Building a Virtual Assistant using the Microsoft Bot Framework</td>
+  </tr>
+  <tr>
+    <td style="border-style : hidden!important;background-color: white">Row 2 Cell 1</td>
+    <td style="border-style : hidden!important;;background-color: white">Row 2 Cell 2</td>
+  </tr>
+</table>
 
 # Plan
 
