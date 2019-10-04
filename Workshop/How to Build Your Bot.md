@@ -54,46 +54,20 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 
 # Master Plan
 
-| this is c1 | this is c2 |
-| ---------- | ---------- |
-| this is c3 | this is c4 |
+## How to Build Your Bot
+###### _Master Plan for Building a Virtual Assistant using the Microsoft Bot Framework_
 
-| ![foo](./Images/BotDevelopmentPhases.png) | this is column 2  |
-| ----------------------------------------- | ----------------- |
-|     |                                      this is colum 3   |
+#### [Plan](#Plan):   
+Workshop Prechecks and Prerequisites  
+Identify Scenarios  
+Author Dialogs, design cards, visualize
 
-<p style="font-size: 28px">How to Build Your Bot </p>
-<p style="margin-top: -20px;font-style: italic; font-size: 12px">Master Plan for Building a Virtual Assistant using the Microsoft Bot Framework</p>
-<table id="MasterPlanTable">
-	<tr>
-		<td id="MasterPlanCell" >
-			<img src="./Images/BotDevelopmentPhases.png">
-		</td>
-		<td id="MasterPlanCell" >
-			<table id="MasterPlanTable">
-				<tr id="MasterPlanRow">
-					<td style="background-color: yellow; margin-top: -5px" >
-						<p id="MasterPlanHeading"><a href="#plan">Plan2:</a></p>
-						<p id="MasterPlanDetail">Workshop Prechecks and Prerequisites</p>
-						<p id="MasterPlanDetail">Identify Scenarios</p>
-						<p id="MasterPlanDetail">Author Dialogs, design cards, visualize</p>
-						<p id="MasterPlanDetail">(Post Workshop) Define Actions and Review Design Guidelines</p>
-					</td>
-				</tr>
-				<tr id="MasterPlanRow" >
-					<td style="position: relative; top: 8px">
-						<p id="MasterPlanHeading"><a href="#plan">Build:</a></p>
-						<p id="MasterPlanDetail">Create, Deploy, Run your Virtual Assistant</p>
-						<p id="MasterPlanDetail">Customize your Virtual Assistant</p>
-						<p id="MasterPlanDetail">Update QnA Maker Knowledgebase</p>
-						<p id="MasterPlanDetail">Add a Custom Skill to Your Virtual Assistant</p>
-						<p id="MasterPlanDetail">Implement Your Skill’s Core Scenario</p>
-					</td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-</table>
+#### [Build](#Build):  
+Create, Deploy, Run your Virtual Assistant  
+Customize your Virtual Assistant  
+Update QnA Maker Knowledgebase  
+Add a Custom Skill to Your Virtual Assistant  
+Implement Your Skill’s Core Scenario  
 
 # Plan
 
