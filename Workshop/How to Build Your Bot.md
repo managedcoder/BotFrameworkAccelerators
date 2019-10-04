@@ -62,7 +62,7 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 		<td id="MasterPlanCell" >
 			<img src="./Images/BotDevelopmentPhases.png">
 		</td>
-		<td id="MasterPlanCell" style="position: relative; left: -15px; top: -8px">
+		<td id="MasterPlanCell" style="position: relative; left: -10px; top: -8px; vertical-align: top;">
 			<table border = "0" cellpadding = "0" cellspacing = "0">
 				<tr id="MasterPlanRow">
 					<td >
