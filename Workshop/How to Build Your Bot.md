@@ -59,31 +59,31 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 
 <table style="margin-left: -15px" border = "0" cellpadding = "0" cellspacing = "0">
 	<tr>
-		<td id="MasterPlanCell" width="100px">
+		<td id="MasterPlanCell" >
 			<img src="./Images/BotDevelopmentPhases.png">
 		</td>
-		<td id="MasterPlanCell">
-<table style="margin-left: -15px" border = "0" cellpadding = "0" cellspacing = "0">
-			<tr id="MasterPlanRow">
-				<td >
-					<p id="MasterPlanHeading"><a href="#plan">Plan4:</a></p>
-					<p id="MasterPlanDetail">Workshop Prechecks and Prerequisites</p>
-					<p id="MasterPlanDetail">Identify Scenarios</p>
-					<p id="MasterPlanDetail">Author Dialogs, design cards, visualize</p>
-					<p id="MasterPlanDetail">(Post Workshop) Define Actions and Review Design Guidelines</p>
-				</td>
-			</tr>
-			<tr id="MasterPlanRow" >
-				<td style="position: relative; top: 8px">
-					<p id="MasterPlanHeading"><a href="#plan">Build:</a></p>
-					<p id="MasterPlanDetail">Create, Deploy, Run your Virtual Assistant</p>
-					<p id="MasterPlanDetail">Customize your Virtual Assistant</p>
-					<p id="MasterPlanDetail">Update QnA Maker Knowledgebase</p>
-					<p id="MasterPlanDetail">Add a Custom Skill to Your Virtual Assistant</p>
-					<p id="MasterPlanDetail">Implement Your Skill’s Core Scenario</p>
-				</td>
-			</tr>
-</table>
+		<td id="MasterPlanCell" style="position: relative; left: -15px; top: -8px">
+			<table border = "0" cellpadding = "0" cellspacing = "0">
+				<tr id="MasterPlanRow">
+					<td >
+						<p id="MasterPlanHeading"><a href="#plan">Plan4:</a></p>
+						<p id="MasterPlanDetail">Workshop Prechecks and Prerequisites</p>
+						<p id="MasterPlanDetail">Identify Scenarios</p>
+						<p id="MasterPlanDetail">Author Dialogs, design cards, visualize</p>
+						<p id="MasterPlanDetail">(Post Workshop) Define Actions and Review Design Guidelines</p>
+					</td>
+				</tr>
+				<tr id="MasterPlanRow" >
+					<td style="position: relative; top: 8px">
+						<p id="MasterPlanHeading"><a href="#plan">Build:</a></p>
+						<p id="MasterPlanDetail">Create, Deploy, Run your Virtual Assistant</p>
+						<p id="MasterPlanDetail">Customize your Virtual Assistant</p>
+						<p id="MasterPlanDetail">Update QnA Maker Knowledgebase</p>
+						<p id="MasterPlanDetail">Add a Custom Skill to Your Virtual Assistant</p>
+						<p id="MasterPlanDetail">Implement Your Skill’s Core Scenario</p>
+					</td>
+				</tr>
+			</table>
 		</td>
 	</tr>
 </table>
