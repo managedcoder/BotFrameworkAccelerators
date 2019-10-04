@@ -59,74 +59,10 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 
 <table style="margin-left: -15px" border = "0" cellpadding = "0" cellspacing = "0">
 	<tr>
-		<td id="MasterPlanCell">
-			<img src="./Images/BotDevelopmentPhases.png">
-		</td>
-	</tr>
-</table>
-
-<table style="margin-left: -15px" border = "0" cellpadding = "0" cellspacing = "0">
-	<tr>
 		<td id="MasterPlanCell" width="100px">
 			<img src="./Images/BotDevelopmentPhases.png">
 		</td>
-	<td id="MasterPlanCell">
-		<table style="margin-top: -8px; border="0" cellpadding="0" cellspacing="0">
-			<tr id="MasterPlanRow">
-				<td >
-					<p id="MasterPlanHeading"><a href="#plan">Plan4:</a></p>
-					<p id="MasterPlanDetail">Workshop Prechecks and Prerequisites</p>
-					<p id="MasterPlanDetail">Identify Scenarios</p>
-					<p id="MasterPlanDetail">Author Dialogs, design cards, visualize</p>
-					<p id="MasterPlanDetail">(Post Workshop) Define Actions and Review Design Guidelines</p>
-				</td>
-			</tr>
-			<tr id="MasterPlanRow" >
-				<td style="position: relative; top: 8px">
-					<p id="MasterPlanHeading"><a href="#plan">Build:</a></p>
-					<p id="MasterPlanDetail">Create, Deploy, Run your Virtual Assistant</p>
-					<p id="MasterPlanDetail">Customize your Virtual Assistant</p>
-					<p id="MasterPlanDetail">Update QnA Maker Knowledgebase</p>
-					<p id="MasterPlanDetail">Add a Custom Skill to Your Virtual Assistant</p>
-					<p id="MasterPlanDetail">Implement Your Skill’s Core Scenario</p>
-				</td>
-			</tr>
-			<tr id="MasterPlanRow" >
-				<td style="position: relative; top: 12px">
-					<p id="MasterPlanHeading"><a href="#plan">Test:</a></p>
-					<p id="MasterPlanDetail">Testing and debugging guidelines, Trouble Shooting</p>
-					<p id="MasterPlanDetail">Bot emulator and Wiki</p>
-					<p id="MasterPlanDetail">Conversation Transcript</p>
-					<p id="MasterPlanDetail">Unit Testing and Load Testing Bots (coming soon)</p>
-				</td>
-			</tr>
-			<tr id="MasterPlanRow" >
-				<td style="position: relative; top: 7px">
-					<p id="MasterPlanHeading"><a href="#Publish">Publish:</a></p>
-					<p id="MasterPlanDetail">Publish using Visual Studio</p>
-					<p id="MasterPlanDetail">DevOps</p>
-				</td>
-			</tr>
-			<tr id="MasterPlanRow" >
-				<td style="position: relative; top: 13px">
-					<p id="MasterPlanHeading"><a href="#Publish">Manage:</a></p>
-					<p id="MasterPlanDetail">Manage using Azure Portal and Configure Bot Setting</p>
-					<p id="MasterPlanDetail">Enable channels</p>
-					<p id="MasterPlanDetail">Integrate with other Cognitive Services</p>
-				</td>
-			</tr>
-			<tr id="MasterPlanRow" >
-				<td style="position: relative; top: 22px">
-					<p id="MasterPlanHeading"><a href="#Publish">Learn:</a></p>
-					<p id="MasterPlanDetail">Read all our doc on Bot Framework Solutions, Azure Bot Service, LUIS, and QnA Maker</p>
-					<p id="MasterPlanDetail">Leverage Learning Journeys to drill in on bot basics (training does not use VA Template)</p>
-					<p id="MasterPlanDetail">Have questions or need help use one or more of the options discussed here</p>
-					<p id="MasterPlanDetail">Report bugs or issues for core SDK here, Bot Builder tools here, Bot Framework Solutions here, and other options here.</p>				
-				</td>
-			</tr>
-			<tr height="20" />
-	</td>
-  </tr>
+	</tr>
 </table>
 
 # Plan
