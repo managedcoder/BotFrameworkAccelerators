@@ -73,6 +73,16 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 					<p id="MasterPlanDetail">(Post Workshop) Define Actions and Review Design Guidelines</p>
 				</td>
 			</tr>
+			<tr id="MasterPlanRow" >
+				<td style="position: relative; top: 8px">
+					<p id="MasterPlanHeading"><a href="#plan">Build:</a></p>
+					<p id="MasterPlanDetail">Create, Deploy, Run your Virtual Assistant</p>
+					<p id="MasterPlanDetail">Customize your Virtual Assistant</p>
+					<p id="MasterPlanDetail">Update QnA Maker Knowledgebase</p>
+					<p id="MasterPlanDetail">Add a Custom Skill to Your Virtual Assistant</p>
+					<p id="MasterPlanDetail">Implement Your Skill’s Core Scenario</p>
+				</td>
+			</tr>
 </table>
 		</td>
 	</tr>
