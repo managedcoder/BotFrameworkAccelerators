@@ -63,7 +63,17 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 			<img src="./Images/BotDevelopmentPhases.png">
 		</td>
 		<td>
-			<p>Testing</p>
+<table style="margin-left: -15px" border = "0" cellpadding = "0" cellspacing = "0">
+			<tr id="MasterPlanRow">
+				<td >
+					<p id="MasterPlanHeading"><a href="#plan">Plan4:</a></p>
+					<p id="MasterPlanDetail">Workshop Prechecks and Prerequisites</p>
+					<p id="MasterPlanDetail">Identify Scenarios</p>
+					<p id="MasterPlanDetail">Author Dialogs, design cards, visualize</p>
+					<p id="MasterPlanDetail">(Post Workshop) Define Actions and Review Design Guidelines</p>
+				</td>
+			</tr>
+</table>
 		</td>
 	</tr>
 </table>
