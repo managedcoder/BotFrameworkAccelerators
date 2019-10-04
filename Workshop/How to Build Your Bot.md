@@ -59,17 +59,19 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 
 <table style="margin-left: -15px" border = "0" cellpadding = "0" cellspacing = "0">
 	<tr>
-		<td id="MasterPlanCell"><img src="./Images/BotDevelopmentPhases.png">
+		<td id="MasterPlanCell">
+			<img src="./Images/BotDevelopmentPhases.png">
 		</td>
 	</tr>
 </table>
 
 <table style="margin-left: -15px" border = "0" cellpadding = "0" cellspacing = "0">
-  <tr >
-    <td id="MasterPlanCell">
-		<img src="./Images/BotDevelopmentPhases.png">
-	</td>
-    <td id="MasterPlanCell">
+	<tr>
+		<td id="MasterPlanCell">
+			<img src="./Images/BotDevelopmentPhases.png">
+		</td>
+	</tr>
+	<td id="MasterPlanCell">
 		<table style="margin-top: -8px; border="0" cellpadding="0" cellspacing="0">
 			<tr id="MasterPlanRow">
 				<td >
