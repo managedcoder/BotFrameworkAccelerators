@@ -54,6 +54,14 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 
 # Master Plan
 
+| this is c1 | this is c2 |
+| ---------- | ---------- |
+| this is c3 | this is c4 |
+
+| ![foo](./Images/BotDevelopmentPhases.png) | this is column 2  |
+| ----------------------------------------- | ----------------- |
+|     |                                      this is colum 3   |
+
 <p style="font-size: 28px">How to Build Your Bot </p>
 <p style="margin-top: -20px;font-style: italic; font-size: 12px">Master Plan for Building a Virtual Assistant using the Microsoft Bot Framework</p>
 <table id="MasterPlanTable">
