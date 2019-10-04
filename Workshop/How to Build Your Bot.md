@@ -63,6 +63,7 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 			<img src="./Images/BotDevelopmentPhases.png">
 		</td>
 		<td>
+			<p>Testing</p>
 		</td>
 	</tr>
 </table>
