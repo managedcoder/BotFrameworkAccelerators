@@ -1,6 +1,7 @@
 #MasterPlanTable {
     margin-left: -15px;
     border: 0px;
+    border-style: hidden !important;
     cellpadding: 0px;
     cellspacing: 0px;
 }
