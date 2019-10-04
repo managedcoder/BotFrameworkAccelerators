@@ -1,4 +1,4 @@
-<link href="./CSS/markdown.css" rel="stylesheet" />
+<link  rel="stylesheet" type="text/css" href="./CSS/markdown.css" />
 
 <img src="./Images/bot_framework_accelerators_header.png" >
 
