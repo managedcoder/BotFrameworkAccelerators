@@ -62,6 +62,8 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 		<td id="MasterPlanCell" width="100px">
 			<img src="./Images/BotDevelopmentPhases.png">
 		</td>
+		<td>
+		</td>
 	</tr>
 </table>
 
