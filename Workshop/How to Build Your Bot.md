@@ -57,13 +57,13 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 <p style=" font-size: 28px">How to Build Your Bot </p>
 <p style="margin-top: -20px;font-style: italic; font-size: 12px">Master Plan for Building a Virtual Assistant using the Microsoft Bot Framework</p>
 
-<table style="margin-left: -15px" border = "0" cellpadding = "0" cellspacing = "0">
+<table id="MasterPlanTable">
 	<tr>
 		<td id="MasterPlanCell" >
 			<img src="./Images/BotDevelopmentPhases.png">
 		</td>
-		<td id="MasterPlanCell" style="margin-left: -15px;">
-			<table border = "0" cellpadding = "0" cellspacing = "0" style="margin-top: -20px;">
+		<td id="MasterPlanCell" >
+			<table id="MasterPlanTable">
 				<tr id="MasterPlanRow">
 					<td >
 						<p id="MasterPlanHeading"><a href="#plan">Plan1:</a></p>
