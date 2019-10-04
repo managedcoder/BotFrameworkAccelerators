@@ -10,6 +10,10 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 
 <img src="./Images/BotLifeCycle Horizontal.png" >
 
+| Plan | Build | Test | Publish | Manage | Learn |  
+: ---- : ----- : ---- : ------- : ------ : ----- |
+| [Workshop Prechecks and Prerequisites](#WorkshopPrechecksandPrerequisites) | [Create, Deploy, Run your Virtual Assistant](#CreateDeployRunyourVirtualAssistant) |
+
 # Contents
 
 [Overview](#Overview)  
