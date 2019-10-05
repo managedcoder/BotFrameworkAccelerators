@@ -11,11 +11,47 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 <img src="./Images/BotLifeCycle Horizontal.png" >
 
 <table>
-<tr>
-<td width=300px>Plan</td>
-<td>Build</td>
-<td>Publish</td>
-</tr>
+	<tr>
+		<td width="100px">
+			Plan
+		</td>
+		<td>
+			Build
+		</td>
+            Manage
+		<td>
+			Test
+		</td>
+		<td>
+			Publish
+		</td>
+		<td>
+			Manage
+		</td>
+		<td>
+			Learn
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="./Images/Dot.png" width="8px" >&nbsp;<a href="#plan">Plan</a>
+    	</td>
+		<td>
+			Build
+		</td>
+		<td>
+			Test
+		</td>
+		<td>
+			Publish
+		</td>
+		<td>
+			Manage
+		</td>
+		<td>
+			Learn
+		</td>
+	</tr>
 </table>
 
 | Plan | Build | Test | Publish | Manage | Learn |  
