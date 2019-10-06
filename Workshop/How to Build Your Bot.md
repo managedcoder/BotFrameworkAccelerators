@@ -11,54 +11,12 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Images/BotLifeCycle Horizontal.png" width="1440">
 
 #### Plan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test
+Workshop Prechecks and Prerequisites  
+Identify Scenarios  
+Author Dialogs, design cards, visualize  
+(Post Workshop) Define Actions and Review Design Guidelines  
 
-
-<table>
-	<tr>
-		<td width="100px">
-			Plan
-		</td>
-		<td>
-			Build
-		</td>
-            Manage
-		<td>
-			Test
-		</td>
-		<td>
-			Publish
-		</td>
-		<td>
-			Manage
-		</td>
-		<td>
-			Learn
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<img src="./Images/Dot.png" width="8px" >&nbsp;<a href="#plan">Plan</a>
-    	</td>
-		<td>
-			Build
-		</td>
-		<td>
-			Test
-		</td>
-		<td>
-			Publish
-		</td>
-		<td>
-			Manage
-		</td>
-		<td>
-			Learn
-		</td>
-	</tr>
-</table>
-
-| Plan | Build | Test | Publish | Manage | Learn |  
-| ---- | ----- | ---- | ------- | ------ | ----- |
+ 
 | [Workshop Prechecks and Prerequisites](#WorkshopPrechecksandPrerequisites) | [Create, Deploy, Run your Virtual Assistant](#CreateDeployRunyourVirtualAssistant) |
 
 
