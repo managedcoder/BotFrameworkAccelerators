@@ -8,7 +8,10 @@ This workshop will guide you step-by-step through the process of developing an e
 
 Although you'll only execute the **Plan** and **Build** phases in this workshop, you can use the links in the the [master plan](#MAsterPlan) below to guide you through the remaining phases and accelerate your bot journey all the way through to production deployment.
 
-<img src="./Images/BotLifeCycle Horizontal.png" >
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Images/BotLifeCycle Horizontal.png" width="1440">
+
+- Plan
+
 
 <table>
 	<tr>
