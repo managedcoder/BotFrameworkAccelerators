@@ -10,11 +10,11 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Images/BotLifeCycle Horizontal.png" width="1440">
 
-#### Plan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test
-Workshop Prechecks and Prerequisites  
-Identify Scenarios  
-Author Dialogs, design cards, visualize  
-(Post Workshop) Define Actions and Review Design Guidelines  
+### Plan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspTest
+######Workshop Prechecks and Prerequisites  
+######Identify Scenarios  
+######Author Dialogs, design cards, visualize  
+######(Post Workshop) Define Actions and Review Design Guidelines  
 
  
 | [Workshop Prechecks and Prerequisites](#WorkshopPrechecksandPrerequisites) | [Create, Deploy, Run your Virtual Assistant](#CreateDeployRunyourVirtualAssistant) |
