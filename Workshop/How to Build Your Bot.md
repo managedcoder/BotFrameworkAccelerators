@@ -10,7 +10,7 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Images/BotLifeCycle Horizontal.png" width="1440">
 
-- Plan
+##### Plan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test
 
 
 <table>
