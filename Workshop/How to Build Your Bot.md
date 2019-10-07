@@ -301,7 +301,7 @@ We&#39;re finally where the rubber meets the road and we&#39;re ready to code wh
 
 ## Step 6 - (Optional) Add Multiturn QnA Prompts to Your Assistant<a name=Step6OptionalAddMultiturnQnAPromptstoYourAssistant />
 
-_[_ **Important!!!!** _ The Virtual Assistant Template and bot framework tools have not yet been updated to respect multiturn follow-on prompts so the following is a temporary workaround and some follow-on prompts will not work properly.  You can use this_ _topic_ _to explore follow-on prompts in your assistant, but the SDK will eventually be updated and obviate this workaround.  Bottom line – this code should be removed before the assistant is deployed in production or once the SDK has been updated.  When the SDK is updated, this section will be updated with the proper instructions on how to incorporate follow-on prompts]_
+[**Important!!!!** The Virtual Assistant Template and bot framework tools have not yet been updated to respect multiturn follow-on prompts so the following is a temporary workaround and some follow-on prompts will not work properly.  You can use this_ _topic_ _to explore follow-on prompts in your assistant, but the SDK will eventually be updated and obviate this workaround.  Bottom line – this code should be removed before the assistant is deployed in production or once the SDK has been updated.  When the SDK is updated, this section will be updated with the proper instructions on how to incorporate follow-on prompts]_
 
 In this next topic we&#39;ll use follow-up prompts to create a multiturn QnA conversation as described [here](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/multiturn-conversation).  The new QnA Maker Follow-on prompts do not automatically appear in bot clients so you must add code to make that happen.  This topic will show you how to add the ability to show the new QnA Maker follow-on prompts in your new assistant.  Follow the steps described [here](https://github.com/managedcoder/BotFrameworkAccelerators/tree/master/MultiturnQnAMaker) skipping the first step related to creating and deploying your assistant since you&#39;ve already done that.
 
@@ -311,25 +311,15 @@ Adding a built-in skill is an optional part of the workshop since and the built-
 
 Follow these steps to install the To Do Skill:
 
-1. Browse to the Bot Framework Solutions Repository [here](https://github.com/microsoft/botframework-solutions) and clone it to your development PC by clicking the **Clone or download** button and then choose **Download ZIP**.
-2.
-2.
-
-Extract the ZIP to your local hard drive and then copy the **botframework-solutions-master\skills\src\csharp\todoskill** folder and paste it into the root folder of your Virtual Assistant solution (i.e. the folder that holds the **.sln** file)
-
-
-Extract the ZIP to your local hard drive and then copy the **botframework-solutions-master\skills\src\csharp\todoskill** folder and paste it into the root folder of your Virtual Assistant solution (i.e. the folder that holds the **.sln** file)
+1. Browse to the Bot Framework Solutions Repository [here](https://github.com/microsoft/botframework-solutions) and clone it to your development PC by clicking the **Clone or download** button and then choose **Download ZIP**.  
+![GitHub clone User Interface](.\Images\CloneGitHubRepo.png)
+2. Extract the ZIP to your local hard drive and then copy the **botframework-solutions-master\skills\src\csharp\todoskill** folder and paste it into the root folder of your Virtual Assistant solution (i.e. the folder that holds the **.sln** file)
 3. Open your Virtual Assistant solution in Visual Studio and right-click the solution in the Solution Explorer and choose **Add | Existing Project…** and add **todoskill\todoskill\ToDoSkill.csproj**
 4. Add the **todoskill\todoskilltest\ToDoSkillTest.csproj** the same way you did in the last step
-5. Now we&#39;ll deploy the todoskill.
-Open PowerShell Core 6 and run the following command to temporality set the execution policy to **Bypass** for the current PowerShell session.  If this is not done, you&#39;ll get an error for attempting to run a script that is not digitally signed.  When the PowerShell session ends the setting reverts.
-
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-6. Deploy the todoskill by opening PowerShell Core 6 and change directory to todoskill project folder ( **todoskill\todoskill** ) and run the following command:
-
-.\Deployment\Scripts\deploy.ps1
-
-### (Optional) What do these parameters mean?<a name=OptionalWhatdotheseparametersmean />
+5. Now we'll deploy the todoskill. Open PowerShell Core 6 and run the following command to temporality set the execution policy to **Bypass** for the current PowerShell session.  If this is not done, you'll get an error for attempting to run a script that is not digitally signed.  When the PowerShell session ends the setting will revert to their previous settings.  
+`Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
+6. Deploy the todoskill by opening PowerShell Core 6 and change directory to todoskill project folder ( **todoskill\todoskill** ) and run the following command:  
+`.\Deployment\Scripts\deploy.ps1`  
 
 | **Parameter** | **Description** | **Required** |
 | --- | --- | --- |
@@ -338,7 +328,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 | appPassword | The password for the [Azure Active Directory App](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) that will be used by your bot. It must be at least 16 characters long, contain at least 1 special character, and contain at least 1 numeric character. If using an existing app, this must be the existing password. | **Yes** |
 | luisAuthoringKey | The authoring key for your LUIS account. It can be found at [https://www.luis.ai/user/settings](https://www.luis.ai/user/settings) or [https://eu.luis.ai/user/settings](https://eu.luis.ai/user/settings) | **Yes** |
 
-1. Now follow same instructions for adding a custom skill skipping to the Test Your Skill step found [here](https://github.com/microsoft/botframework-solutions/blob/master/docs/tutorials/csharp/skill.md#test-your-skill)
+7. Now follow same instructions for adding a custom skill skipping to the Test Your Skill step found [here](https://github.com/microsoft/botframework-solutions/blob/master/docs/tutorials/csharp/skill.md#test-your-skill)
 
 ## Step 8 - Wrapping Up Build Stage<a name=Step8WrappingUpBuildStage />
 
