@@ -145,15 +145,15 @@ Although it&#39;s not necessary for the workshop, reviewing the bot design guide
 
 # Build
 
-1. Preface - Conversational AI Fundamentals and Motivation
-2. Step 1 - Create Your Virtual Assistant
-3. Step 2 - Customize your Virtual Assistant
-4. Step 3 - Update QnA Maker Knowledgebase
-5. Step 4 - Add a Custom Skill to Your Virtual Assistant
-6. Step 5 - Implement Your Skill&#39;s Core Scenario
-7. Step 6 - (Optional) Add Multiturn QnA Prompts to Your Assistant
-8. Step 7 - (Optional) Add a Built-in Skill to You Virtual Assistant
-9. Step 8 - Wrapping Up Build Stage
+[Preface - Conversational AI Fundamentals and Motivation](#ConversationalAIfundamentalsandMotivation)  
+[Step 1 - Create Your Virtual Assistant](#CreateYourVirtualAssistant)  
+[Step 2 - Customize your Virtual Assistant](#Step2CustomizeyourVirtualAssistant)  
+[Step 3 - Update QnA Maker Knowledgebase](#Step3UpdateQnAMakerKnowledgeBaseKB)  
+[Step 4 - Add a Custom Skill to Your Virtual Assistant](#Step4AddYourCoreSkill)  
+[Step 5 - Implement Your Skill&#39;s Core Scenario](#Step5ImplementYourSkillsCoreScenario)  
+[Step 6 - (Optional) Add Multiturn QnA Prompts to Your Assistant](#Step6OptionalAddMultiturnQnAPromptstoYourAssistant)  
+[Step 7 - (Optional) Add a Built-in Skill to You Virtual Assistant](#Step7OptionalAddaBuiltinSkilltoYourVirtualAssistant)  
+[Step 8 - Wrapping Up Build Stage](#Step8WrappingUpBuildStage)
 
 ## Preface - Conversational AI fundamentals and Motivation<a name=ConversationalAIfundamentalsandMotivation />
 
@@ -414,10 +414,10 @@ Publishing a Virtual Assistant using Visual Studio is slightly different than wh
 
 1. In Visual Studio, right-click the Virtual Assistant or Skill in the Solution Explorer and choose **Publish**  
 ![Visual Studio Publishing User Interface](./Images/VSPublishUserInterface.png)
-2.Make sure **App Service** is selected then choose **Select Existing** and then click the **Advanced** … link  
+2. Make sure **App Service** is selected then choose **Select Existing** and then click the **Advanced** … link  
 ![Publishing Target User Interface](./Images/PublishingTargetUserInterface.png)
-3.Select **Debug** for the _Configuration_ setting and expand _File Publish Options_ and check **Remove additional files at destination** to insure there are no pesky leftover after any future deployment and then click **Save**.  
+3. Select **Debug** for the _Configuration_ setting and expand _File Publish Options_ and check **Remove additional files at destination** to insure there are no pesky leftover after any future deployment and then click **Save**.  
 ![Configuration Settings User Interface](ConfigurationSettingUserInterface.png)
-4.Now click **Publish**  
+4. Now click **Publish**  
 ![Publishing Summary User Interface](./Images/PublishingSummaryPage.png)
-5.Select your Azure account and subscription then expand the App Service folder that contains the Virtual Assistant App Service you want to publish to and then click **OK** and the publishing process will begin.  You can open the View | Output window to watch the progress and check to make sure it completes successfully
+5. Select your Azure account and subscription then expand the App Service folder that contains the Virtual Assistant App Service you want to publish to and then click **OK** and the publishing process will begin.  You can open the View | Output window to watch the progress and check to make sure it completes successfully
