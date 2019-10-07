@@ -6,7 +6,7 @@
 
 This workshop will guide you step-by-step through the process of developing an enterprise bot using the Microsoft Bot Framework and the Azure Bot Service.  It's designed to acclerate the development of a Minimal Viable Product (MVP) while minimizing the time-to-value.  So this workshop  **IS NOT** about how to build **A BOT** , it's about how to build **YOUR BOT**!  Think of it as the first sprint of your bot's MVP milestone.  
 
-Although you'll only execute the **Plan** and **Build** phases in this workshop, you should use the links in the Test, Publish, Manage, and Learn phases round out you learning journey and accelerate your development all the way through to production deployment.
+Although this workshop focuses on the **Plan** and **Build** phases it does pull select topics from the Test, Publish, and Manage phases where needed.  To support your post-workshop journey to production, you can use the links and resources included in the Test, Publish, Manage, and Learn phases to round out your bot skills and accelerate your development all the way through to production deployment.
 
 <img src="./Images/BotLifeCycle Horizontal.png" width="1440">
 
@@ -393,7 +393,7 @@ One of the most critical phases in the life of a bot is the Evaluation stage and
 - Active Learning for [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/improve-knowledge-base) and [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-concept-review-endpoint-utterances)
 
 # Test
-Testing your bot is a critical part of development.  During the workshop we only able to touch on the basics of testing.  The following resources will drill down on the topic and provide a more advanced understanding.
+Testing your bot is a critical part of development.  During the workshop we only touched on the basics of testing.  The following resources will drill down on the topic and provide a more advanced understanding.
 
 - [Testing and debugging guidelines](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-testing-debugging?view=azure-bot-service-4.0), [Trouble Shooting](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-troubleshoot-general-problems?view=azure-bot-service-4.0)
 - [Bot emulator](https://aka.ms/bot-framework-emulator-debug-with-emulator) and [Wiki](https://github.com/microsoft/BotFramework-Emulator/wiki)
@@ -401,10 +401,26 @@ Testing your bot is a critical part of development.  During the workshop we only
 - Unit Testing and Load Testing Bots (coming soon)
 
 # Publish
+Like the Test phase, we touched on the basics of publishing a bot.  In the very early stages of a bot's development (as is the case in this workshop) you will use Visual Studio to publish your bot since it's quick and easy and necessary to connect a bot's skill to the assistant.  As you progress in the bot's development you'll want to add more discipline and rigger to your development process and add Azure DevOps so deployments are fully automated and follow DevOps best practices.  The links in this section will help you in both aspects of deployment.
+
+- [Publish using Visual Studio](#AppendixPublishVirtualAssistantorSkillusingVisualStudio)
+- [DevOps](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-build-continuous-deployment?view=azure-bot-service-4.0)
 
 # Manage
+Managing your bot will be an ongoing activity that has several different aspects to it and the links below will help you understand and master key aspect of this phase of the bot developent master plan.
+
+- [Manage using Azure Portal](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-overview?view=azure-bot-service-4.0) and [Configure Bot Setting](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-settings?view=azure-bot-service-4.0)
+- [Enable channels](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)
+- [Integrate with other Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/)
 
 # Learn
+Like the Management phase, the Learning phase is an ongoing activity that is a balance between competing priorities of progressing bot development and learning and apply new bot capabilities.  Striking an effective balance between learning and doing is best achieved by "just-in-time" learning followed by immediate application which is easier said than done.  If you'd like to try this "just-in-time" approach to learning and doing, you should review content from the links in this section to get a high-level understanding of the art-of-the-possible and capabilities of the Microsoft Bot Framework and the Azure Bot Services so you can then plan out which sprints will drill into the details of the content in this section and apply those learnings pragmatically as you progress with the development of your bot.
+
+- Read all our doc on [Bot Framework Solutions](https://github.com/microsoft/botframework-solutions/tree/master/docs), [Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0), [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/), and [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/)
+- Leverage [Learning Journeys](https://aischool.microsoft.com/en-us/conversational/learning-paths) to drill in on bot basics (training does not use VA Template)
+- Have questions or need help use one or more of the options discussed [here](https://github.com/microsoft/botframework-sdk#questions-and-help)
+- Report bugs or issues for ]core SDK here](https://github.com/microsoft/botframework-sdk#issues-and-feature-requests), [Bot Builder tools here](https://github.com/microsoft/botbuilder-tools/issues), [Bot Framework Solutions here](https://github.com/microsoft/botframework-solutions/issues), and [other options here](https://github.com/microsoft/botframework-sdk#overview).
+
 
 # Appendix – Important Links<a name=AppendixImportantLinks />
 
