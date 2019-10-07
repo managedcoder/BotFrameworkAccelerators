@@ -412,13 +412,12 @@ Bot Framework Solutions Repository for Conversational Assistant
 
 Publishing a Virtual Assistant using Visual Studio is slightly different than what most developers are used to doing when they use the Visual Studio Publishing Wizard since the App Service has already been created.  This means the flow changes to allow for the existing App Service to be selected in the publishing wizard rather than created as is normally the case.  Here are the steps.
 
-1.
-1.In Visual Studio, right-click the Virtual Assistant or Skill in the Solution Explorer and choose **Publish**
-2.
-2.Make sure **App Service** is selected then choose **Select Existing** and then click the **Advanced** … link
-3.
-3.Select **Debug** for the _Configuration_ setting and expand _File Publish Options_ and check **Remove additional files at destination** to insure there are no pesky leftover after any future deployment and then click **Save**.
-4.
-4.Now click **Publish**
-5.
+1. In Visual Studio, right-click the Virtual Assistant or Skill in the Solution Explorer and choose **Publish**  
+![Visual Studio Publishing User Interface](./Images/VSPublishUserInterface.png)
+2.Make sure **App Service** is selected then choose **Select Existing** and then click the **Advanced** … link  
+![Publishing Target User Interface](./Images/PublishingTargetUserInterface.png)
+3.Select **Debug** for the _Configuration_ setting and expand _File Publish Options_ and check **Remove additional files at destination** to insure there are no pesky leftover after any future deployment and then click **Save**.  
+![Configuration Settings User Interface](ConfigurationSettingUserInterface.png)
+4.Now click **Publish**  
+![Publishing Summary User Interface](./Images/PublishingSummaryPage.png)
 5.Select your Azure account and subscription then expand the App Service folder that contains the Virtual Assistant App Service you want to publish to and then click **OK** and the publishing process will begin.  You can open the View | Output window to watch the progress and check to make sure it completes successfully
