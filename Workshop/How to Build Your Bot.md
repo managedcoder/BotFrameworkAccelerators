@@ -4,9 +4,9 @@
 
 # Overview
 
-This workshop will guide you step-by-step through the process of developing an enterprise bot using the Microsoft Bot Framework and the Azure Bot Service.  It's designed to acclerate the development of a Minimal Viable Product (MVP) while minimizing the time-to-value.  So this workshop  **IS NOT** about how to build **A BOT** , it's about how to build **YOUR BOT**!  Think of it as the first sprint of your bot's MVP milestone.  
+This workshop will guide you step-by-step through the process of developing an enterprise bot using the Microsoft Bot Framework and the Azure Bot Service.  It's designed to acclerate the development of a Minimal Viable Product (MVP) while minimizing the time-to-value.  This workshop  **IS NOT** about how to build **A BOT** , it's about how to build **YOUR BOT**!  Think of it as the first sprint of your bot's MVP milestone.  
 
-Although this workshop focuses on the **Plan** and **Build** phases it does pull select topics from the Test, Publish, and Manage phases where needed.  To support your post-workshop journey to production, you can use the links and resources included in the Test, Publish, Manage, and Learn phases to round out your bot skills and accelerate your development all the way through to production deployment.
+Although this workshop focuses primarily on the **Plan** and **Build** phases it does pull select topics from the Test, Publish, and Manage phases where needed.  To support your post-workshop journey to production, you can use the links and resources included in the Test, Publish, Manage, and Learn phases to round out your bot skills and accelerate your development all the way through to production deployment.
 
 <img src="./Images/BotLifeCycle Horizontal.png" width="1440">
 
@@ -53,13 +53,13 @@ Although this workshop focuses on the **Plan** and **Build** phases it does pull
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Unit Testing Bots (to complete CI/CD pipeline)](#UnitTestingBotstocompleteCICDpipeline)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Analyzing Bot Usage](#AnalyzingBotUsage)  
 [Test](#Test)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test Phase Resources  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Test Phase Resources](#Test)  
 [Publish](#Publish)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Publish Phase Resources  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Publish Phase Resources](#Publish)  
 [Manage](#Manage)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manage Phase Resources  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Manage Phase Resources](#Manage)  
 [Learn](#Learn)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning Phase Resources  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Learning Phase Resources](#Learn)  
 [Appendix – Important Links](#AppendixImportantLinks)  
 [Appendix – Publish Virtual Assistant or Skill using Visual Studio](#AppendixPublishVirtualAssistantorSkillusingVisualStudio)  
 
@@ -84,7 +84,7 @@ Although not exactly necessary, it&#39;s never a bad idea to update Visual Studi
 
 **Import:** In addition to the above installation prerequisites, developers will also need to have an Azure Subscription and enough permissions in their Azure Subscription to do the following:
 
-- Add apps to App Registration Portal (https://apps.dev.microsoft.com)
+- Add apps to App Registration Portal (https://apps.dev.microsoft.com)  
 **Note:** If they have never created an app registration before then they can check this by creating an app registration and then turn right around and delete it
 - Azure Portal rights to create:
   - Azure Resource Groups
@@ -287,23 +287,16 @@ You can test out the LUIS model in the portal to make sure it&#39;s recognizing 
 
 After you&#39;ve added your bot&#39;s first core intents in the luis.ai portal, follow the steps below to update your Skill and Assistant to include the new Intent you created in the previous step.
 
-1. To update your skill from the luis.ai portal, run the following command from Skills project directory to update the .lu file (see &quot;Update your local LU files for LUIS and QnAMaker&quot; section [here](https://microsoft.github.io/botframework-solutions/tutorials/typescript/customize-assistant/4_edit_your_cognitive_models/) for more details)
+1. To update your skill from the luis.ai portal, run the following command from Skills project directory to update the .lu file (see &quot;Update your local LU files for LUIS and QnAMaker&quot; section [here](https://microsoft.github.io/botframework-solutions/tutorials/typescript/customize-assistant/4_edit_your_cognitive_models/) for more details)  
+`.\Deployment\Scripts\update\_cognitive\_models.ps1 -RemoteToLocal`
+2. To make new Intents visible to the botskills command and eventually your assistant, publish your skill from Visual Studio (i.e. right-click skill project in the Solution Explorer and select **Publish** )
 
-**.\Deployment\Scripts\update\_cognitive\_models.ps1 -RemoteToLocal**
-
-1. To make new Intents visible to the botskills command and eventually your assistant, publish your skill from Visual Studio (i.e. right-click skill project in the Solution Explorer and select **Publish** )
-
-2. To update the assistant&#39;s dispatcher to reflect the changes made to the skill, run the following command from the Assistant&#39;s project directory (see &quot;Update a Skill to your Virtual Assistant&quot; section [here](https://github.com/microsoft/botframework-solutions/blob/master/tools/botskills/docs/update.md) for more details)
-
-**botskills update --botName**  **\&lt;assistant&#39;s name\&gt;** **--remoteManifest
+3. To update the assistant&#39;s dispatcher to reflect the changes made to the skill, run the following command from the Assistant&#39;s project directory (see &quot;Update a Skill to your Virtual Assistant&quot; section [here](https://github.com/microsoft/botframework-solutions/blob/master/tools/botskills/docs/update.md) for more details)  
+`botskills update --botName**  **\&lt;assistant&#39;s name\&gt;** **--remoteManifest
 &quot;https:// **** \&lt;skill name\&gt; ****.azurewebsites.net/api/skill/manifest&quot; --cs --luisFolder
-&quot; **** \&lt;full file path to skill&#39;s project folder\&gt; ****\Deployment\Resources\LU\en&quot;**
+&quot; **** \&lt;full file path to skill&#39;s project folder\&gt; ****\Deployment\Resources\LU\en&quot;`
 
 **Note** : Copy the **botskills connect** command you used early in step 4 when you added your Skill to your Assistant and then change the word &quot;connect&quot; to &quot;update&quot; to create the **botskills update** command
-
-- Run this command from Skills project directory to update the \&lt;skill name\&gt;cs
-  - **oo**** luisgen .\Deployment\Resources\LU\en\ ****\&lt;skill name\&gt;****.luis -cs**
-**\&lt;skill name\&gt;**** Luis -o .\Services**
 
 ### Step 5.3 - Update Skill to Act on Intent and Begin Dialog with User<a name=Step53UpdateSkilltoActonIntentandBeginDialogwithUser />
 
