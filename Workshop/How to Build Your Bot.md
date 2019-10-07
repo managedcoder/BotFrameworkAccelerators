@@ -312,7 +312,7 @@ Adding a built-in skill is an optional part of the workshop since and the built-
 Follow these steps to install the To Do Skill:
 
 1. Browse to the Bot Framework Solutions Repository [here](https://github.com/microsoft/botframework-solutions) and clone it to your development PC by clicking the **Clone or download** button and then choose **Download ZIP**.  
-![GitHub clone User Interface](.\Images\CloneGitHubRepo.png)
+![GitHub clone User Interface](./Images/CloneGitHubRepo.png)
 2. Extract the ZIP to your local hard drive and then copy the **botframework-solutions-master\skills\src\csharp\todoskill** folder and paste it into the root folder of your Virtual Assistant solution (i.e. the folder that holds the **.sln** file)
 3. Open your Virtual Assistant solution in Visual Studio and right-click the solution in the Solution Explorer and choose **Add | Existing Project…** and add **todoskill\todoskill\ToDoSkill.csproj**
 4. Add the **todoskill\todoskilltest\ToDoSkillTest.csproj** the same way you did in the last step
@@ -342,7 +342,7 @@ Access to LUIS application endpoints are metered by [endpoint keys](https://docs
 2. [Assign the resource key to the LUIS app](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/get-started-portal-deploy-app#assign-the-resource-key-to-the-luis-app-in-the-luis-portal)
 3. Modify your Assistant and Skills to [use prediction endpoint](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-concept-keys#use-endpoint-key-in-query)
 
-If you don&#39;t change your LUIS endpoint you&#39;ll run the risk of running out of quota and [hitting HTTP 403 or HTTP 429 errors](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fcognitive-services%2FLUIS%2Fluis-concept-keys%23key-limit-errors&amp;data=02%7C01%7Cruwill%40microsoft.com%7C36258b98398b487ee70408d6fcb363da%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636974245219442750&amp;sdata=WtCYeOa8c5sBo2RZ9kEuJ713m%2BgdRLlC%2FMCtJINhojM%3D&amp;reserved=0).
+If you don't change your LUIS endpoint you'll run the risk of running out of quota and [hitting HTTP 403 or HTTP 429 errors](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fcognitive-services%2FLUIS%2Fluis-concept-keys%23key-limit-errors&amp;data=02%7C01%7Cruwill%40microsoft.com%7C36258b98398b487ee70408d6fcb363da%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636974245219442750&amp;sdata=WtCYeOa8c5sBo2RZ9kEuJ713m%2BgdRLlC%2FMCtJINhojM%3D&amp;reserved=0).
 
 ### Adding Secure Web Chat Control<a name=AddingSecureWebChatControl />
 
