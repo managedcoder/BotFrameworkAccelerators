@@ -6,7 +6,7 @@
 
 This workshop will guide you step-by-step through the process of developing an enterprise bot using the Microsoft Bot Framework and the Azure Bot Service.  It's designed to acclerate the development of a Minimal Viable Product (MVP) while minimizing the time-to-value.  So this workshop  **IS NOT** about how to build **A BOT** , it's about how to build **YOUR BOT**!  Think of it as the first sprint of your bot's MVP milestone.  
 
-Although you'll only execute the **Plan** and **Build** phases in this workshop, you can use the links in the the [master plan](#MAsterPlan) below to guide you through the remaining phases and accelerate your bot journey all the way through to production deployment.
+Although you'll only execute the **Plan** and **Build** phases in this workshop, you should use the links in the Test, Publish, Manage, and Learn phases round out you learning journey and accelerate your development all the way through to production deployment.
 
 <img src="./Images/BotLifeCycle Horizontal.png" width="1440">
 
@@ -63,30 +63,13 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 [Appendix – Important Links](#AppendixImportantLinks)  
 [Appendix – Publish Virtual Assistant or Skill using Visual Studio](#AppendixPublishVirtualAssistantorSkillusingVisualStudio)  
 
-# Master Plan
-
-## How to Build Your Bot
-###### _Master Plan for Building a Virtual Assistant using the Microsoft Bot Framework_
-
-#### [Plan](#Plan):   
-Workshop Prechecks and Prerequisites  
-Identify Scenarios  
-Author Dialogs, design cards, visualize
-
-#### [Build](#Build):  
-Create, Deploy, Run your Virtual Assistant  
-Customize your Virtual Assistant  
-Update QnA Maker Knowledgebase  
-Add a Custom Skill to Your Virtual Assistant  
-Implement Your Skill’s Core Scenario  
-
 # Plan
 
-1. Workshop Prechecks and Prerequisites
-2. Identify Scenarios
-3. Author Dialogs, Design Cards, Visualize
-4. (Post Workshop) Define Actions and Supporting Activities
-5. (Post Workshop) Review Design Guidelines
+1. [Workshop Prechecks and Prerequisites](#WorkshopPrechecksandPrerequisites)
+2. [Identify Scenarios](#IdentifyScenarios)
+3. [Author Dialogs, Design Cards, Visualize](#AuthorDialogDesignCardsandVisualize)
+4. [(Post Workshop) Define Actions and Supporting Activities](#DefineActionsandSupportingActivities)
+5. [(Post Workshop) Review Design Guidelines](#ReviewDesignGuidelines)
 
 In the planning stage you'll take steps to prepare for an effective workshop that's been designed to accelerate the development of an enterprise grade bot.  These steps do not require participants to have any prior experience with the Microsoft Bot Framework.  Spending quality time preparing for the workshop is the best way to insure a successful outcome.  Steps 1 through 3 should be discussed in a pre-call with architect who will be leading the workshop.  Steps 4 and 5 can be reviewed for context before the workshop and followed up on post workshop.
 
@@ -410,9 +393,12 @@ One of the most critical phases in the life of a bot is the Evaluation stage and
 - Active Learning for [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/improve-knowledge-base) and [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-concept-review-endpoint-utterances)
 
 # Test
-Testing your bot is a critical part of development.  During the workshop we were only able to touch on the basics of testing.  The following resources will drill down on the topic and provide a more advanced understanding.
+Testing your bot is a critical part of development.  During the workshop we only able to touch on the basics of testing.  The following resources will drill down on the topic and provide a more advanced understanding.
 
-- Test
+- [Testing and debugging guidelines](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-testing-debugging?view=azure-bot-service-4.0), [Trouble Shooting](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-troubleshoot-general-problems?view=azure-bot-service-4.0)
+- [Bot emulator](https://aka.ms/bot-framework-emulator-debug-with-emulator) and [Wiki](https://github.com/microsoft/BotFramework-Emulator/wiki)
+- [Conversation Transcript](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-debug-transcript?view=azure-bot-service-4.0)
+- Unit Testing and Load Testing Bots (coming soon)
 
 # Publish
 
