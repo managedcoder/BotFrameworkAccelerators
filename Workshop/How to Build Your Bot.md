@@ -8,13 +8,8 @@ This workshop will guide you step-by-step through the process of developing an e
 
 Although you'll only execute the **Plan** and **Build** phases in this workshop, you can use the links in the the [master plan](#MAsterPlan) below to guide you through the remaining phases and accelerate your bot journey all the way through to production deployment.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./Images/BotLifeCycle Horizontal.png" width="1440">
+<img src="./Images/BotLifeCycle Horizontal.png" width="1440">
 
-### Plan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Publish&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learn  
-##### Workshop Prerequisites  
-##### Identify Scenarios  
-##### Design Conversational AI
-##### Define Actions, Review Guidance
 
 # Contents
 
@@ -57,6 +52,14 @@ Although you'll only execute the **Plan** and **Build** phases in this workshop,
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Configure DevOps](#ConfigureDevOps)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Unit Testing Bots (to complete CI/CD pipeline)](#UnitTestingBotstocompleteCICDpipeline)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Analyzing Bot Usage](#AnalyzingBotUsage)  
+[Test](#Test)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Test Phase Resources  
+[Publish](#Publish)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Publish Phase Resources  
+[Manage](#Manage)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manage Phase Resources  
+[Learn](#Learn)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning Phase Resources  
 [Appendix – Important Links](#AppendixImportantLinks)  
 [Appendix – Publish Virtual Assistant or Skill using Visual Studio](#AppendixPublishVirtualAssistantorSkillusingVisualStudio)  
 
