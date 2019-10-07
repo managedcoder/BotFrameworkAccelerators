@@ -371,6 +371,8 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ### Changing Endpoint<a name=ChangingEndpoint />
 
+**Note:** The most recent Virtual Assistant Template and Bot Tools now creates a production endpoint that a resource key instead of the old behavior that required you to follow the steps below.  If you are using version 4.5.4 or later of the Virtual Assistant you can verify that the production endpoint is correctly configured to use the subscription key by publishing the LUIS app in the LUIS portal and checking to confirm that the associated key is not the LUIS Authoring Key.
+
 Access to LUIS application endpoints are metered by [endpoint keys](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-concept-keys).  By default, the prediction endpoint of your LUIS applications is configured to use the Authoring Key which has a [1,000-call-per-month query limit](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fcognitive-services%2FLUIS%2Fluis-boundaries%23key-limits&amp;data=02%7C01%7Cruwill%40microsoft.com%7C36258b98398b487ee70408d6fcb363da%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636974245219442750&amp;sdata=4fUueoPVVaLRuxCP6IyyyhP49la7DK6QcYIWDRMORX4%3D&amp;reserved=0).  When building quick bot demos that will only see limited use, the Authoring Key is fine.  For production development, you&#39;ll need:
 
 1. [Create the endpoint key](https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/luis-how-to-azure-subscription#create-prediction-endpoint-runtime-resource-in-the-azure-portal)
@@ -406,6 +408,17 @@ One of the most critical phases in the life of a bot is the Evaluation stage and
 - [Custom Telemetry](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-telemetry?view=azure-bot-service-4.0)
 - [Advanced Custom Insights](https://github.com/microsoft/botframework-solutions/blob/master/docs/reference/analytics/applicationinsights.md)
 - Active Learning for [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/improve-knowledge-base) and [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-concept-review-endpoint-utterances)
+
+# Test
+Testing your bot is a critical part of development.  During the workshop we were only able to touch on the basics of testing.  The following resources will drill down on the topic and provide a more advanced understanding.
+
+- Test
+
+# Publish
+
+# Manage
+
+# Learn
 
 # Appendix – Important Links<a name=AppendixImportantLinks />
 
