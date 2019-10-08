@@ -84,15 +84,15 @@ There are two sets of prerequisites that must be installed for this workshop:
 - Virtual Assistant prerequisites which can be found [here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/create-assistant/2_download_and_install/)
 - Skills prerequisites which can be found [here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/create-skill/2_download_and_install/)
 
-The installation instructions for both must be followed **exactly** or you will experience strange errors later when you try to build your bot and it won't be obvious that the errors you are seeing are a result of improper installation.  If you are unsure about any of the installation instructions you can take a look at this step-by-step video of the full installation processs which will show you exactly how to get that done.
+The installation instructions for both must be followed **exactly** or you will experience strange errors later when you try to build your bot and it won't be obvious that the errors you are seeing are a result of improper installation.  If you are unsure about any of the installation instructions you can take a look at this [step-by-step video of the full installation processs](http://a.com).
 
 **Note:** For Skills, you only need to do step 1 where you install the Skills template since the rest of those installation steps are redundant.
 
-If you already have Visual Studio 2019 installed, it's not exactly necessary, but it's never a bad idea to check to make sure Visual Studio is up to date which you can do by launching it and choosing **Help | Check for Updates**.  This can safely be done before workshop begins.
+If you already have Visual Studio 2019 installed, it's not a bad idea to check to make sure Visual Studio is up to date which you can do by launching it and choosing **Help | Check for Updates**.  This can safely be done before workshop begins.
 
 ### Confirm You Have Required Subscription Permissions
 
-In addition to the above installation prerequisites, developers will also need to have an Azure Subscription and enough permissions in their Azure Subscription to do the following:
+In addition to the above installation prerequisites, developers will also need to have an Azure Subscription with enough permissions in their Azure Subscription to do the following:
 
 - Azure portal rights to create:
   - Azure Active Directory Application Registrations
