@@ -75,12 +75,18 @@ In the planning stage you'll take steps to prepare for an effective workshop tha
 
 ## Workshop Prechecks and Prerequisites<a name=WorkshopPrechecksandPrerequisites />
 
-A critical step in preparing for the workshop is installing the bot framework SDK and tools and making sure you have enough permissions in your Azure Subscription to create all the resources and services required by the Virtual Assistant Template.  Normally, these installation steps are done in the workshop itself, but its important to confirm that the attendees have enough permissions to install software on their development PC before the workshop starts (i.e. admin rights to the PC).
+A critical step in preparing for the workshop is installing the bot framework SDK and tools and making sure you have enough permissions in your Azure Subscription to create all the resources and services required by the Virtual Assistant Template.  These installation steps can be done before the workshop starts or during the workshop itself.  If you decide to do the installation steps during the workshop then its super important to confirm that the attendees have enough permissions to install software on their development PC before the workshop starts (i.e. admin rights to the PC).
 
-There are two sets of prerequisites that must be installed: Virtual Assistant and Skills prerequisites.  The instructions for both must be followed exactly or you will experience strange errors later when you try to build your bot and it won&#39;t be obvious that the errors you are seeing are a result of improper installation.  The prerequisites that need to be installed for the Virtual Assistant can be found [here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/create-assistant/2_download_and_install/) and the second set of installation steps for Skills can be found [here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/create-skill/2_download_and_install/).  For Skills, you only need to do step 1 where you install the Skills template since the rest of those installation steps are redundant.  If you find yourself unsure of what to do in any of the installation steps, you can look at
+There are two sets of prerequisites that must be installed for this workshop:
+- Virtual Assistant prerequisites which can be found [here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/create-assistant/2_download_and_install/)
+- Skills prerequisites which can be found [here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/create-skill/2_download_and_install/)
+
+The installation instructions for both must be followed **exactly** or you will experience strange errors later when you try to build your bot and it won't be obvious that the errors you are seeing are a result of improper installation.  
+
+**Note:** For Skills, you only need to do step 1 where you install the Skills template since the rest of those installation steps are redundant.  If you find yourself unsure of what to do in any of the installation steps, you can look at
 [this short screen recording](../../C:%5C%5CUsers%5C%5Cruwill.NORTHAMERICA%5C%5CDownloads%5C%5Cadd%20this%20later) that shows the whole process end-to-end.
 
-Although not exactly necessary, it&#39;s never a bad idea to update Visual Studio which you can do by launching it and choosing **Help | Check for Updates**.  This can safely be done before workshop begins.
+If you already have Visual Studio 2019 installed, it's not exactly necessary, but it's never a bad idea to check to make sure Visual Studio is up to date which you can do by launching it and choosing **Help | Check for Updates**.  This can safely be done before workshop begins.
 
 **Import:** In addition to the above installation prerequisites, developers will also need to have an Azure Subscription and enough permissions in their Azure Subscription to do the following:
 
