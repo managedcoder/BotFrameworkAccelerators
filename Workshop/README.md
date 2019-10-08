@@ -75,7 +75,10 @@ In the planning stage you'll take steps to prepare for an effective workshop tha
 
 ## Workshop Prechecks and Prerequisites<a name=WorkshopPrechecksandPrerequisites />
 
-A critical step in preparing for the workshop is installing the bot framework SDK and tools and making sure you have enough permissions in your Azure Subscription to create all the resources and services required by the Virtual Assistant Template.  These installation steps can be done before the workshop starts or during the workshop itself.  If you decide to do the installation steps during the workshop then its super important to confirm that the attendees have enough permissions to install software on their development PC before the workshop starts (i.e. admin rights to the PC).
+A critical step in preparing for the workshop is installing the bot framework SDK and tools and making sure you have enough permissions in your Azure Subscription to create all the resources and services required by the Virtual Assistant Template.  
+
+### SDK and Tools Installation
+These installation steps can be done before the workshop starts or during the workshop itself.  If you decide to do the installation steps during the workshop then its super important to confirm that the attendees have enough permissions to install software on their development PC before the workshop starts (i.e. admin rights to the PC).
 
 There are two sets of prerequisites that must be installed for this workshop:
 - Virtual Assistant prerequisites which can be found [here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/create-assistant/2_download_and_install/)
@@ -88,20 +91,22 @@ The installation instructions for both must be followed **exactly** or you will 
 
 If you already have Visual Studio 2019 installed, it's not exactly necessary, but it's never a bad idea to check to make sure Visual Studio is up to date which you can do by launching it and choosing **Help | Check for Updates**.  This can safely be done before workshop begins.
 
-**Import:** In addition to the above installation prerequisites, developers will also need to have an Azure Subscription and enough permissions in their Azure Subscription to do the following:
+### Confirm You Have Required Subscription Permissions
 
-- Add apps to App Registration Portal (https://apps.dev.microsoft.com)  
-**Note:** If they have never created an app registration before then they can check this by creating an app registration and then turn right around and delete it
-- Azure Portal rights to create:
-  - Azure Resource Groups
+In addition to the above installation prerequisites, developers will also need to have an Azure Subscription and enough permissions in their Azure Subscription to do the following:
+
+- Azure portal rights to create:
+  - Azure Active Directory Application Registrations
+  - Resource Groups 
   - Azure App Service
   - Azure Web App Bot
   - Azure Cosmos DB
   - Azure App Service Plan
-  - Azure Cognitive Services (LUIS &amp; QnA Maker)
+  - Azure Cognitive Services (LUIS & QnA Maker)
   - Azure Search
   - Azure Application Insights
   - Azure Storage Account
+  - Although not strict requirement, the ability to add Azure Active Directory Application Registrations and Resource Groups are very helpful.
 
 All these services will be created in this workshop and your developers should check to make sure they have permission to create them.  One way to confirm they have enough permissions is to create each of those resources/services in the Azure Portal and then turn right around and delete them.
 
