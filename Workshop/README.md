@@ -105,7 +105,7 @@ In addition to the above installation prerequisites, developers will also need t
   - Azure Search
   - Azure Application Insights
   - Azure Storage Account
-  - Although not strict requirement, the ability to add Azure Active Directory Application Registrations and Resource Groups are very helpful.
+  - Although not strict requirement, the ability to add Azure Active Directory Application Registrations and Resource Groups are very helpful but each can be passed as arguments to [Bot Framework Tools](https://github.com/microsoft/botbuilder-tools/) and Virtual Assistant Deployment scripts.
 
 All these services will be created in this workshop and your developers should check to make sure they have permission to create them.  One way to confirm they have enough permissions is to create each of those resources/services in the Azure Portal and then turn right around and delete them.
 
