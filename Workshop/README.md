@@ -256,9 +256,9 @@ Active Learning is a [compelling feature that you can read about here](https://d
 
 You&#39;ve been making changes to the knowledge base in the QnA Maker portal.  In order to see those changes in the running bot, you&#39;ll need to run an update script to regenerate the Dispatcher.
 
-Run the following command from within Powershell (pwsh.exe) within your assistant&#39;s project directory.
+Run the following command from within Powershell (pwsh.exe) within your assistant's project directory.
 
-    .\Deployment\Scripts\update\_cognitive\_models.ps1 -RemoteToLocal
+    .\Deployment\Scripts\update_cognitive_models.ps1 -RemoteToLocal
 
 Now test your bot using the Bot Emulator
 
