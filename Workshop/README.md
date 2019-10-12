@@ -4,7 +4,7 @@
 
 # Overview
 
-This workshop will guide you step-by-step through the process of developing an enterprise bot using the Microsoft Bot Framework and the Azure Bot Service.  It's designed to acclerate the development of a Minimal Viable Product (MVP) while minimizing the time-to-value.  This workshop  **IS NOT** about how to build **A BOT** , it's about how to build **YOUR BOT**!  Think of it as the first sprint of your bot's MVP milestone.  
+This workshop will guide you step-by-step through the process of developing an enterprise bot using the Azure Bot Service, the Microsoft Bot Framework, and the Virtual Assistant Template.  It's designed to acclerate the development of a Minimal Viable Product (MVP) while minimizing the time-to-value.  This workshop  **IS NOT** about how to build **A BOT** , it's about how to build **YOUR BOT**!  Think of it as the first sprint of your bot's MVP milestone.  
 
 Although this workshop focuses primarily on the **Plan** and **Build** phases it does pull select topics from the Test, Publish, and Manage phases where needed.  To support your post-workshop journey to production, you can use the links and resources included in the Test, Publish, Manage, and Learn phases to round out your bot skills and accelerate your development all the way through to production deployment.
 
@@ -75,7 +75,7 @@ In the planning stage you'll take steps to prepare for an effective workshop tha
 
 ## Workshop Prechecks and Prerequisites<a name=WorkshopPrechecksandPrerequisites />
 
-A critical step in preparing for the workshop is installing the bot framework SDK and tools and making sure you have enough permissions in your Azure Subscription to create all the resources and services required by the Virtual Assistant Template.  
+This workshop centers around the Microsoft Bot Framework's Virtual Assistant which serves to define what an enterprise bot looks like on the Microsoft Bot Platform.  A critical step in preparing for the Bot Acclerator Workshop is installing the Virtual Assistant and making sure you have enough permissions in your Azure Subscription to create all the resources and services required by the Virtual Assistant Template.  
 
 ### SDK and Tools Installation
 Installing the required prerequisites can be done before the workshop starts or during the workshop itself.  If you decide to do the installation steps during the workshop then its super important to confirm that the attendees have enough permissions to install software on their development PC before the workshop starts (i.e. admin rights to the PC).
