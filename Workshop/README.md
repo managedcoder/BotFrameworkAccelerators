@@ -71,7 +71,7 @@ Although this workshop focuses primarily on the **Plan** and **Build** phases it
 4. [(Post Workshop) Define Actions and Supporting Activities](#DefineActionsandSupportingActivities)
 5. [(Post Workshop) Review Design Guidelines](#ReviewDesignGuidelines)
 
-In the planning stage you'll take steps to prepare for an effective workshop that's been designed to accelerate the development of an enterprise grade bot.  These steps do not require participants to have any prior experience with the Microsoft Bot Framework.  Spending quality time preparing for the workshop is the best way to insure a successful outcome.  Steps 1 through 3 should be discussed in a pre-call with architect who will be leading the workshop.  Steps 4 and 5 can be reviewed for context before the workshop and followed up on post workshop.
+In the planning stage you'll take steps to prepare for an effective workshop that's been designed to accelerate the development of an enterprise grade bot.  These steps do not require participants to have any prior experience with the Microsoft Bot Framework.  A step-by-step video of the entire Planning phase described below, including screen-by-screen installation steps, can be found [here](https://youtu.be/GJEld4RgfNs).  Spending quality time preparing for the workshop is the best way to insure a successful outcome.  Steps 1 through 3 should be discussed in a pre-call with architect who will be leading the workshop.  Steps 4 and 5 can be reviewed for context before the workshop and followed up on post workshop.
 
 ## Workshop Prerequisites and Prechecks<a name=WorkshopPrerequisitesandPrechecks />
 
@@ -84,7 +84,7 @@ There are two sets of prerequisites that must be installed for this workshop:
 - Virtual Assistant Template and its prerequisites which can be found [here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/create-assistant/2_download_and_install/)
 - Skills Template and its prerequisites which can be found [here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/create-skill/2_download_and_install/)
 
-The installation instructions for both must be followed **exactly** or you will experience strange errors later when you try to build your bot and it won't be obvious that the errors you are seeing are a result of improper installation.  If you are unsure about any of the installation instructions you can take a look at this [step-by-step video of the full installation processs](http://a.com).
+The installation instructions for both must be followed **exactly** or you will experience strange errors later when you try to build your bot and it won't be obvious that the errors you are seeing are a result of improper installation.  To help you follow the installation instructructions you can take a look at this Planning phase video that includes screen-by-screen instructions for installing the Virtual Assistant [here](https://youtu.be/GJEld4RgfNs).
 
 **Note:** For Skills, you only need to do step 1 where you install the Skills template since the rest of those installation steps are redundant.
 
