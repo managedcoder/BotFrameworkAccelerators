@@ -142,6 +142,22 @@ The easiest way to model and design a dialog for a scenario is to simply jot it 
 
 It is possible to create a rich mockup of a dialog design using the [Chatdown tool](https://github.com/microsoft/botbuilder-tools/tree/master/packages/Chatdown) which is part of Microsoft&#39;s [bot-builder tools](https://github.com/microsoft/botbuilder-tools).  You can use this tool in cases where you&#39;d like to share a realistic &quot;design comp&quot; to internal business owners and stakeholders to get feedback and approval before spending the effort to build it.  For dialogs that only require simple answers (e.g. text answers) for each step in the conversation, the Chatdown tool might not provide any more value than the jot-down technique described previously.  But, for dialogs that will flow things like dropdown controls, radio boxes, buttons, and carousel cards, the Chatdown tool is very helpful in capturing that.  Note: Not all channels support rich dialogs (i.e. dialogs with non-text conversation) so you&#39;ll want to consider that when designing your dialogs.
 
+## Identify and Curate Question and Answer (Q&A) Content
+
+An important aspect of an intelligent bot is its ability to answer questions users will likely ask.  Many organizations already maintain various collections of questions and answers (QnA).During the workshop, these collections of QnA will be imported into the QnA Maker service and turned into a knowledgebase that the bot will then draw on to provide answers to questions users ask. 
+	
+During the Planning phase, you will need to identify all the relevant QnA content that should be imported during the workshop.  To get an understanding of what types of content can be imported by the QnA Maker service, take a look at the QnA Maker documentation [here](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/concepts/data-sources-supported)
+	
+Once you've identified all the relevant QnA content, the next step is to curate that content and here's way.  It's very common for QnA content to be written in a very technical way that's totally appropriate for a FAQ page but it's not the way people actually talk.  This creates a problem in at least 2 ways.  
+	
+First, the technically worded questions are not at all like the way an average person would ask a question.  Users are not domain experts and they won't form questions with the same technical precision and specificity you'll typically find in traditional FAQs.  This creates a mismatch and will result in poor recognition results.
+	
+Second, the answers you'll typically see in traditional QnA can be long winded and overly technical, bordering on legalistic.  Just as it would be out of place for a call center representative  to respond to a caller's question with a lengthy, over technical response, the bot needs to respond with a clear and conversational answer.
+	
+So curation of QnA content involves coming up with alternative ways that users are likely to ask each question in the QnA content.  Find some way to capture a list of these alternative questions so that they can be manually added during the workshop after the content has been imported.  For example, you might create an Excel spread sheet that lists the original question followed by a list of alternatives.  Then, after importing that content, you can easily go through each imported question, find it in the spread sheet and then add all the alternatives listed.
+	
+Curation will also involve reviewing each and every answer to see if it needs to be shortened and reworded to be more conversational without losing meaning or correctness.  This can be challenging but it's absolutely necessary to provide the best experience to the user.
+
 ## (Post Workshop) Define Actions and Supporting Activities<a name=DefineActionsandSupportingActivities />
 
 Actions carry out the intent of the scenarios.  The goal of the dialog for a scenario is to gather enough information to be able to carry out its intent which you can think of as an action.  These actions will be integration points between the conversational AI of your bot and the application backend that will execute that task.
