@@ -18,7 +18,7 @@ Although this workshop focuses primarily on the **Plan** and **Build** phases it
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Workshop Prechecks and Prerequisites](#WorkshopPrerequisitesandPrechecks)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Identify Scenarios](#IdentifyScenarios)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Author Dialog, Design Cards, and Visualize](#AuthorDialogDesignCardsandVisualize)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Identify and Curate Question and Answer (Q&A) Content](#IdentifyandCurateQuestionandAnswerQnAContent)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Identify and Curate Q&A Content](#IdentifyandCurateQuestionandAnswerQnAContent)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Post Workshop) Define Actions and Supporting Activities](#DefineActionsandSupportingActivities)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Post Workshop) Review Design Guidelines](#ReviewDesignGuidelines)  
 [Build](#Build)  
@@ -69,7 +69,7 @@ Although this workshop focuses primarily on the **Plan** and **Build** phases it
 1. [Workshop Prechecks and Prerequisites](#WorkshopPrerequisitesandPrechecks)
 2. [Identify Scenarios](#IdentifyScenarios)
 3. [Author Dialogs, Design Cards, Visualize](#AuthorDialogDesignCardsandVisualize)
-4. [Identify and Curate Question and Answer (Q&A) Content](#IdentifyandCurateQuestionandAnswerQnAContent)
+4. [Identify and Curate Q&A Content](#IdentifyandCurateQuestionandAnswerQnAContent)
 5. [(Post Workshop) Define Actions and Supporting Activities](#DefineActionsandSupportingActivities)
 6. [(Post Workshop) Review Design Guidelines](#ReviewDesignGuidelines)
 
