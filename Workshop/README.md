@@ -147,17 +147,19 @@ It is possible to create a rich mockup of a dialog design using the [Chatdown to
 ## Identify and Curate Q&A Content<a name=IdentifyandCurate />
 
 An important aspect of an intelligent bot is its ability to answer questions users will likely ask.  Many organizations already maintain various collections of questions and answers (QnA). During the workshop, these collections of QnA will be imported into the QnA Maker service and turned into a knowledgebase that the bot will then draw on to provide answers to questions users ask. 
-	
+
+The previous topic discussed what are called multi-turn dialogs where conversation flows from user to bot and bot back to user multiple times before the dialog completes.  QnA interactions are called single-turn conversations where the user asks a question and the bot provides an answer to end that dialog.  Multi-turn dialogs are handled by the Language Understanding Services (LUIS) and single-turn dialogs are handled by the QnA Maker service and it's these simple question and answer pairs we want to focus on this this topic.
+
 During the Planning phase, you will need to identify all the relevant QnA content that should be imported during the workshop.  To get an understanding of what types of content can be imported by the QnA Maker service, take a look at the QnA Maker documentation [here](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/concepts/data-sources-supported)
-	
+
 Once you've identified all the relevant QnA content, the next step is to curate that content and here's way.  It's very common for QnA content to be written in a very technical manner that's totally appropriate for a FAQ page but it's not the way people actually talk.  This creates a problem in at least 2 ways.  
-	
+
 First, the technically worded questions are not at all like the way an average person would ask a question.  Users are not domain experts and they won't form questions with the same technical precision and specificity you'll typically find in traditional FAQs.  This creates a mismatch and will result in poor recognition results.
-	
+
 Second, the answers you'll typically see in traditional QnA can be long winded and overly technical, bordering on legalistic.  Just as it would be out of place for a call center representative  to respond to a caller's question with a lengthy, over technical response, the bot needs to respond with a clear and conversational answer.
-	
+
 So curation of QnA content involves coming up with alternative ways that users are likely to ask each question in the QnA content.  Find some way to capture a list of these alternative questions so that they can be manually added during the workshop after the content has been imported.  For example, you might create an Excel spread sheet that lists the original question followed by a list of alternatives.  Then, after importing that content, you can easily go through each imported question, find it in the spread sheet and then add all the alternatives listed.
-	
+
 Curation will also involve reviewing each and every answer to see if it needs to be shortened and reworded to be more conversational without losing meaning or correctness.  This can be challenging but it's absolutely necessary to provide the best experience to the user.
 
 ## (Post Workshop) Define Actions and Supporting Activities<a name=DefineActionsandSupportingActivities />
