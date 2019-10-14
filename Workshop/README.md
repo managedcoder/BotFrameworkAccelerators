@@ -18,7 +18,7 @@ Although this workshop focuses primarily on the **Plan** and **Build** phases it
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Workshop Prechecks and Prerequisites](#WorkshopPrerequisitesandPrechecks)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Identify Scenarios](#IdentifyScenarios)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Author Dialog, Design Cards, and Visualize](#AuthorDialogDesignCardsandVisualize)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Identify and Curate Q&A Content](#IdentifyandCurateQuestionandAnswerQnAContent)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Identify and Curate Q&A Content](#IdentifyandCurate)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Post Workshop) Define Actions and Supporting Activities](#DefineActionsandSupportingActivities)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Post Workshop) Review Design Guidelines](#ReviewDesignGuidelines)  
 [Build](#Build)  
@@ -144,7 +144,7 @@ The easiest way to model and design a dialog for a scenario is to simply jot it 
 
 It is possible to create a rich mockup of a dialog design using the [Chatdown tool](https://github.com/microsoft/botbuilder-tools/tree/master/packages/Chatdown) which is part of Microsoft&#39;s [bot-builder tools](https://github.com/microsoft/botbuilder-tools).  You can use this tool in cases where you&#39;d like to share a realistic &quot;design comp&quot; to internal business owners and stakeholders to get feedback and approval before spending the effort to build it.  For dialogs that only require simple answers (e.g. text answers) for each step in the conversation, the Chatdown tool might not provide any more value than the jot-down technique described previously.  But, for dialogs that will flow things like dropdown controls, radio boxes, buttons, and carousel cards, the Chatdown tool is very helpful in capturing that.  Note: Not all channels support rich dialogs (i.e. dialogs with non-text conversation) so you&#39;ll want to consider that when designing your dialogs.
 
-## Identify and Curate Question and Answer (Q&A) Content<a name=IdentifyandCurateQuestionandAnswerQnAContent/>
+## Identify and Curate Q&A Content<a name=IdentifyandCurate />
 
 An important aspect of an intelligent bot is its ability to answer questions users will likely ask.  Many organizations already maintain various collections of questions and answers (QnA). During the workshop, these collections of QnA will be imported into the QnA Maker service and turned into a knowledgebase that the bot will then draw on to provide answers to questions users ask. 
 	
