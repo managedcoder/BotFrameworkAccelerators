@@ -18,6 +18,7 @@ Although this workshop focuses primarily on the **Plan** and **Build** phases it
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Workshop Prechecks and Prerequisites](#WorkshopPrerequisitesandPrechecks)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Identify Scenarios](#IdentifyScenarios)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Author Dialog, Design Cards, and Visualize](#AuthorDialogDesignCardsandVisualize)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Identify and Curate Question and Answer (Q&A) Content](#IdentifyandCurateQuestionandAnswerQnAContent)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Post Workshop) Define Actions and Supporting Activities](#DefineActionsandSupportingActivities)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Post Workshop) Review Design Guidelines](#ReviewDesignGuidelines)  
 [Build](#Build)  
@@ -68,8 +69,9 @@ Although this workshop focuses primarily on the **Plan** and **Build** phases it
 1. [Workshop Prechecks and Prerequisites](#WorkshopPrerequisitesandPrechecks)
 2. [Identify Scenarios](#IdentifyScenarios)
 3. [Author Dialogs, Design Cards, Visualize](#AuthorDialogDesignCardsandVisualize)
-4. [(Post Workshop) Define Actions and Supporting Activities](#DefineActionsandSupportingActivities)
-5. [(Post Workshop) Review Design Guidelines](#ReviewDesignGuidelines)
+4. [Identify and Curate Question and Answer (Q&A) Content](#IdentifyandCurateQuestionandAnswerQnAContent)
+5. [(Post Workshop) Define Actions and Supporting Activities](#DefineActionsandSupportingActivities)
+6. [(Post Workshop) Review Design Guidelines](#ReviewDesignGuidelines)
 
 In the planning stage you'll take steps to prepare for an effective workshop that's been designed to accelerate the development of an enterprise grade bot.  These steps do not require participants to have any prior experience with the Microsoft Bot Framework.  A step-by-step video of the entire Planning phase described below, including screen-by-screen installation steps, can be found [here](https://youtu.be/GJEld4RgfNs).  Spending quality time preparing for the workshop is the best way to insure a successful outcome.  Steps 1 through 3 should be discussed in a pre-call with architect who will be leading the workshop.  Steps 4 and 5 can be reviewed for context before the workshop and followed up on post workshop.
 
@@ -142,13 +144,13 @@ The easiest way to model and design a dialog for a scenario is to simply jot it 
 
 It is possible to create a rich mockup of a dialog design using the [Chatdown tool](https://github.com/microsoft/botbuilder-tools/tree/master/packages/Chatdown) which is part of Microsoft&#39;s [bot-builder tools](https://github.com/microsoft/botbuilder-tools).  You can use this tool in cases where you&#39;d like to share a realistic &quot;design comp&quot; to internal business owners and stakeholders to get feedback and approval before spending the effort to build it.  For dialogs that only require simple answers (e.g. text answers) for each step in the conversation, the Chatdown tool might not provide any more value than the jot-down technique described previously.  But, for dialogs that will flow things like dropdown controls, radio boxes, buttons, and carousel cards, the Chatdown tool is very helpful in capturing that.  Note: Not all channels support rich dialogs (i.e. dialogs with non-text conversation) so you&#39;ll want to consider that when designing your dialogs.
 
-## Identify and Curate Question and Answer (Q&A) Content
+## Identify and Curate Question and Answer (Q&A) Content<a name=IdentifyandCurateQuestionandAnswerQnAContent/>
 
-An important aspect of an intelligent bot is its ability to answer questions users will likely ask.  Many organizations already maintain various collections of questions and answers (QnA).During the workshop, these collections of QnA will be imported into the QnA Maker service and turned into a knowledgebase that the bot will then draw on to provide answers to questions users ask. 
+An important aspect of an intelligent bot is its ability to answer questions users will likely ask.  Many organizations already maintain various collections of questions and answers (QnA). During the workshop, these collections of QnA will be imported into the QnA Maker service and turned into a knowledgebase that the bot will then draw on to provide answers to questions users ask. 
 	
 During the Planning phase, you will need to identify all the relevant QnA content that should be imported during the workshop.  To get an understanding of what types of content can be imported by the QnA Maker service, take a look at the QnA Maker documentation [here](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/concepts/data-sources-supported)
 	
-Once you've identified all the relevant QnA content, the next step is to curate that content and here's way.  It's very common for QnA content to be written in a very technical way that's totally appropriate for a FAQ page but it's not the way people actually talk.  This creates a problem in at least 2 ways.  
+Once you've identified all the relevant QnA content, the next step is to curate that content and here's way.  It's very common for QnA content to be written in a very technical manner that's totally appropriate for a FAQ page but it's not the way people actually talk.  This creates a problem in at least 2 ways.  
 	
 First, the technically worded questions are not at all like the way an average person would ask a question.  Users are not domain experts and they won't form questions with the same technical precision and specificity you'll typically find in traditional FAQs.  This creates a mismatch and will result in poor recognition results.
 	
