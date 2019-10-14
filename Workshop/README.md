@@ -69,7 +69,7 @@ Although this workshop focuses primarily on the **Plan** and **Build** phases it
 1. [Workshop Prechecks and Prerequisites](#WorkshopPrerequisitesandPrechecks)
 2. [Identify Scenarios](#IdentifyScenarios)
 3. [Author Dialogs, Design Cards, Visualize](#AuthorDialogDesignCardsandVisualize)
-4. [Identify and Curate Q&A Content](#IdentifyandCurateQuestionandAnswerQnAContent)
+4. [Identify and Curate Q&A Content](#IdentifyandCurate)
 5. [(Post Workshop) Define Actions and Supporting Activities](#DefineActionsandSupportingActivities)
 6. [(Post Workshop) Review Design Guidelines](#ReviewDesignGuidelines)
 
