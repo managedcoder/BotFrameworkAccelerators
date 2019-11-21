@@ -398,9 +398,9 @@ Setting up DevOps as early as possible in development is critical to modern deve
 One of the most critical phases in the life of a bot is the Evaluation stage and a key part of that stage is analyzing bot usage, but because this workshop ends at the Build stage and because analyzing bot usage can be a useful tool during Usability Testing (i.e. testing with representative users or internal project stakeholders and business owners) we include a discussion of it here.
 
 - [Bot Analytics](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-analytics?view=azure-bot-service-4.0)
-- [Overview and usage](https://microsoft.github.io/botframework-solutions/reference/analytics/powerbi/) of the  [Bot Framework Power BI Template](https://aka.ms/botPowerBiTemplate)
+- [Bot Framework Power BI Template Overview](https://microsoft.github.io/botframework-solutions/solution-accelerators/tutorials/view-analytics/1-intro/)
+- [Bot Framework Power BI Template Download](https://microsoft.github.io/botframework-solutions/assets/analytics/virtual-assistant-analytics-sample.pbit)
 - [Custom Telemetry](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-telemetry?view=azure-bot-service-4.0)
-- [Advanced Custom Insights](https://github.com/microsoft/botframework-solutions/blob/master/docs/reference/analytics/applicationinsights.md)
 - Active Learning for [QnA Maker](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/improve-knowledge-base) and [LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/luis-concept-review-endpoint-utterances)
 
 # Test
