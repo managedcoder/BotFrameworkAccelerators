@@ -200,7 +200,7 @@ The first step in developing your bot is to create an enterprise baseline for yo
 
 Throughout this workshop you&#39;ll be using the [Bot Framework Solutions](https://microsoft.github.io/botframework-solutions/index) documentation. It&#39;s tasks-based, step-by-step instruction for building your bot.  You&#39;ll be pointed to the first step and you&#39;ll progress and complete the task by following the step navigation links at the lower righthand portion of each page.
 
-So to create, deploy, and run your Virtual Assistant baseline [follow the steps here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/create-assistant/1_intro/) and return to this documentation when you complete all the steps and see the  &quot;Next Steps&quot; navigation link.
+So to create, deploy, and run your Virtual Assistant baseline [follow the steps here](https://microsoft.github.io/botframework-solutions/virtual-assistant/tutorials/create-assistant/csharp/1-intro/) and return to this documentation when you complete all the steps and see the  &quot;Next Steps&quot; navigation link.
 
 **Notes:**
 
