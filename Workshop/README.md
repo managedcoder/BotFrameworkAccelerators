@@ -94,7 +94,12 @@ If you already have Visual Studio 2019 installed, it's not a bad idea to check t
 
 ### Confirm You Have Required Subscription Permissions
 
-In addition to the above installation prerequisites, developers will also need to have an Azure Subscription with enough permissions in their Azure Subscription to do the following:
+In addition to the above installation prerequisites, developers will need to ensure their subscription contains registrations for each provider required by the Virtual Assistant or deployment will fail.  Here is a list of required resource providers:
+
+[add list of required providers here]
+
+
+Developers will also need to have contributor rights at the subscription or resource group level for the following:
 
 - Azure portal rights to create:
   - Azure Active Directory Application Registrations
@@ -229,7 +234,7 @@ As you learn about developing bots, it&#39;s very helpful to know what files cha
 
 ## Step 2 - Customize your Virtual Assistant<a name=Step2CustomizeyourVirtualAssistant />
 
-Now that you&#39;ve got a generic Virtual Assistant enterprise baseline working, you&#39;re ready to customize it for your scenario.  For this workshop, the only customization step we&#39;ll do is to edit the greeting. The customization of editing responses involves localizing resource strings which aren&#39;t leveraged in this workshop, so we&#39;ll skip that.  Customizing cognitive models is covered elsewhere in this workshop, so we&#39;ll skip that too.  To customize the greeting, complete the [&quot;edit your greeting&quot; step here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/customize-assistant/2_edit_your_greeting/) and then return to this documentation for next steps.
+Now that you&#39;ve got a generic Virtual Assistant enterprise baseline working, you&#39;re ready to customize it for your scenario.  For this workshop, the only customization step we&#39;ll do is to edit the greeting. The customization of editing responses involves localizing resource strings which aren&#39;t leveraged in this workshop, so we&#39;ll skip that.  Customizing cognitive models is covered elsewhere in this workshop, so we&#39;ll skip that too.  To customize the greeting, complete the [&quot;edit your greeting&quot; step here](https://microsoft.github.io/botframework-solutions/virtual-assistant/tutorials/customize-assistant/csharp/2-edit-your-greeting/) and then return to this documentation for next steps.
 
 ## Step 3 - Update QnA Maker Knowledge Base (KB)<a name=Step3UpdateQnAMakerKnowledgeBaseKB />
 
