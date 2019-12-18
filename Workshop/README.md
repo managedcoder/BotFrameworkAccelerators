@@ -38,7 +38,7 @@ Although this workshop focuses primarily on the **Plan** and **Build** phases it
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3.7 – Update Your Local Models](#Step37UpdateYourLocalModels)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Optional) Collaborate](#OptionalCollaborate)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4 - Add Your Core Skill](#Step4AddYourCoreSkill)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.1 – Create, Deploy, and Run Your Core Skill](#Step41CreateDeployandRunYourCoreSkill)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.1 – Create, Provision, and Run Your Core Skill](#Step41CreateProvisionRunYourCoreSkill)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.2 - Update NuGet Packages](#Step42UpdateNuGetPackages)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 5 - Implement Your Skill's Core Scenario](#Step5ImplementYourSkillsCoreScenario)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 5.1 - Add LUIS Intent in the LUIS portal](#Step51AddLUISIntentintheLUISportal)  
@@ -295,9 +295,9 @@ Although it not a concern during the workshop, many organizations will need to k
 
 A key feature of the Virtual Assistant (VA) is its Skills-based architecture.  Skills are the heart of a VA bot and they are what gives a VA bot its behavior.  Skills are the unit of modularization for VA bots.  Typically, a bot will have a single core skill and one or more companion skills that complement the core skill and create a richer, more knowledgeable bot.  ­
 
-### Step 4.1 – Create, Deploy, and Run Your Core Skill­<a name=Step41CreateDeployandRunYourCoreSkill />  
+### Step 4.1 – Create, Provision, and Run Your Core Skill­<a name=Step41CreateProvisionRunYourCoreSkill />  
 
-In this step, you&#39;ll add a custom skill that you&#39;ll use to implement your bot&#39;s core skill following the same style of task-based instructions you followed when building the Assistant where you&#39;ll find navigation links in the bottom righthand corner of the page that will take you to the next instruction.  To create, deploy, and run your Skill, [follow the steps here](https://microsoft.github.io/botframework-solutions/skills/tutorials/create-skill/csharp/3-create-your-skill/) and return to this documentation when you complete all the steps and see the &quot;Next Steps&quot; navigation link.
+In this step, you&#39;ll add a custom skill that you&#39;ll use to implement your bot&#39;s core skill following the same style of task-based instructions you followed when building the Assistant where you&#39;ll find navigation links in the bottom right-hand corner of the page that will take you to the next instruction.  To create, provision, add to assistant, and test your Skill, [follow the steps here](https://microsoft.github.io/botframework-solutions/skills/tutorials/create-skill/csharp/3-create-your-skill/).  and return to this documentation when you complete all the steps and see the &quot;Next Steps&quot; navigation link.
 
 **Note:** You should have already installed the VA Skill template in the (Prerequisite step)[], but if not, go there now and follow the installation steps described there.  
 
