@@ -323,7 +323,7 @@ You can test out the LUIS model in the portal to make sure it&#39;s recognizing 
 
 After you&#39;ve added your bot&#39;s first core intents in the luis.ai portal, follow the steps below to update your Skill and Assistant to include the new Intent you created in the previous step.
 
-1. To update your skill from the luis.ai portal, run the following command from Skills project directory to update the .lu file (see &quot;Update your local LU files for LUIS and QnAMaker&quot; section [here](https://microsoft.github.io/botframework-solutions/tutorials/typescript/customize-assistant/4_edit_your_cognitive_models/) for more details).  
+1. To update your skill from the luis.ai portal, run the following command from Skills project directory to update the .lu file (see &quot;Update your local LU files for LUIS and QnAMaker&quot; section [here](https://microsoft.github.io/botframework-solutions/virtual-assistant/tutorials/customize-assistant/csharp/4-edit-your-cognitive-models/) for more details).  
 `.\Deployment\Scripts\update\_cognitive\_models.ps1 -RemoteToLocal`
 2. To make new Intents visible to the botskills command and eventually your assistant, publish your skill from Visual Studio (i.e. right-click skill project in the Solution Explorer and select **Publish** )
 3. To update the assistant&#39;s dispatcher to reflect the changes made to the skill, run the following command from the Assistant&#39;s project directory (see &quot;Update a Skill to your Virtual Assistant&quot; section [here](https://github.com/microsoft/botframework-solutions/blob/master/tools/botskills/docs/update.md) for more details)  
@@ -343,7 +343,7 @@ In this next topic we&#39;ll use follow-up prompts to create a multiturn QnA con
 
 ## Step 7 - (Optional) Add a Built-in Skill to Your Virtual Assistant<a name=Step7OptionalAddaBuiltinSkilltoYourVirtualAssistant />
 
-Adding a built-in skill is an optional part of the workshop since and the built-in skill are not always a good fit for every bot.  The Microsoft Bot Framework includes several built-in skills that can be added to your bot which can be found [here](https://github.com/microsoft/botframework-solutions/blob/master/docs/overview/skills.md).  If you&#39;d like to get a feel for how built-in skills works you might consider adding the To Do Skill since it&#39;s useful and straight forward.
+Adding a built-in skill is an optional part of the workshop since and the built-in skill are not always a good fit for every bot.  The Microsoft Bot Framework includes several built-in skills that can be added to your bot which can be found [here](https://microsoft.github.io/botframework-solutions/skills/tutorials/add-prebuilt-skill/3-deploy-skill-project/).  If you&#39;d like to get a feel for how built-in skills works you might consider adding the To Do Skill since it&#39;s useful and straight forward.
 
 Follow these steps to install the To Do Skill:
 
