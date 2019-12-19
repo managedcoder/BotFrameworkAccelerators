@@ -298,6 +298,7 @@ A key feature of the Virtual Assistant (VA) is its Skills-based architecture.  S
 ### Step 4.1 – Create, Provision, and Run Your Core Skill­<a name=Step41CreateProvisionRunYourCoreSkill />  
 
 In this step, you&#39;ll create a custom skill that you&#39;ll use to implement your bot&#39;s core skill following the same style of task-based instructions you followed when you created the Assistant where you&#39;ll find navigation links in the bottom right-hand corner of the page that will take you to the next step in the instructions.  So to create, provision, connect, and test your Skill, [follow the steps here](https://microsoft.github.io/botframework-solutions/skills/tutorials/create-skill/csharp/3-create-your-skill/) and your cue to return to this documentation will be when see the "Next Steps" navigation link.
+
 **Note:** You should have already installed the VA Skill template in the (Prerequisite step)[], but if not, go there now and follow the installation steps described there.  
 
 **Also Note:** When deploying your bot, use debug packages, not release.
