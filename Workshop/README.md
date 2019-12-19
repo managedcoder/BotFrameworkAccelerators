@@ -326,7 +326,7 @@ After you&#39;ve added your bot&#39;s first core intents in the luis.ai portal, 
 1. To update your skill from changes made in the luis.ai (or luis.azure.us) portal, run the following command from the Skill's project directory to update the .lu file (see &quot;Update your local LU files for LUIS and QnAMaker&quot; section [here](https://microsoft.github.io/botframework-solutions/virtual-assistant/tutorials/customize-assistant/csharp/4-edit-your-cognitive-models/) for more details).  
 `.\Deployment\Scripts\update_cognitive_models.ps1 -RemoteToLocal`
 2. To make new Intents visible to the botskills command and eventually your assistant, publish your skill using the command below or from Visual Studio (i.e. right-click skill project in the Solution Explorer and select **Publish** )
-`.\Deployment\Scripts\publish.ps1 -name <skill's app service name> -resourceGroup <resource group name> -projFolder .\`
+`.\Deployment\Scripts\publish.ps1 -name <skill's app service name> -resourceGroup <rg name> -projFolder .\`
 3. To update the assistant&#39;s dispatcher to reflect the changes made to the skill, run the following command from the Assistant&#39;s project directory (see &quot;Update a Skill to your Virtual Assistant&quot; section [here](https://github.com/microsoft/botframework-solutions/blob/master/tools/botskills/docs/update.md) for more details)  
 `botskills update --botName <assistant's name> --remoteManifest "https://<skill name>.azurewebsites.net/api/skill/manifest" --cs --luisFolder "<full file path to skill's project folder>\Deployment\Resources\LU\en"`
 4. Run this command from Skills project directory to update the <skill's name>.cs file
