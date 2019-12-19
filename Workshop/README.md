@@ -54,7 +54,6 @@ Although this workshop focuses primarily on the **Plan** and **Build** phases it
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Unit Testing Bots (to complete CI/CD pipeline)](#UnitTestingBotstocompleteCICDpipeline)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Analyzing Bot Usage](#AnalyzingBotUsage)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How to Update Templates and Deployment Scripts to the Latest Version](#HowToUpdateVATemplate)
-
 [Test](#Test)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Test Phase Resources](#Test)  
 [Publish](#Publish)  
