@@ -205,7 +205,7 @@ The first step in developing your bot is to create an enterprise baseline for yo
 
 Throughout this workshop you&#39;ll be using the [Bot Framework Solutions](https://microsoft.github.io/botframework-solutions/index) documentation. It&#39;s tasks-based, step-by-step instruction for building your bot.  You&#39;ll be pointed to the first step and you&#39;ll progress and complete the task by following the step navigation links at the lower righthand portion of each page.
 
-So to create, deploy, and run your Virtual Assistant baseline [follow the steps here](https://microsoft.github.io/botframework-solutions/virtual-assistant/tutorials/create-assistant/csharp/1-intro/) and return to this documentation when you complete all the steps and see the  &quot;Next Steps&quot; navigation link.
+So to create, deploy, and run your Virtual Assistant baseline [follow the steps here](https://microsoft.github.io/botframework-solutions/virtual-assistant/tutorials/create-assistant/csharp/1-intro/) and your cue to return to this documentation will be when see the &quot;Next Steps&quot; navigation link.
 
 **Notes:**
 
@@ -234,7 +234,7 @@ As you learn about developing bots, it&#39;s very helpful to know what files cha
 
 ## Step 2 - Customize your Virtual Assistant<a name=Step2CustomizeyourVirtualAssistant />
 
-Now that you&#39;ve got a generic Virtual Assistant enterprise baseline working, you&#39;re ready to customize it for your scenario.  For this workshop, the only customization step we&#39;ll do is to edit the greeting. The customization of editing responses involves localizing resource strings which aren&#39;t leveraged in this workshop, so we&#39;ll skip that.  Customizing cognitive models is covered elsewhere in this workshop, so we&#39;ll skip that too.  To customize the greeting, complete the [&quot;edit your greeting&quot; step here](https://microsoft.github.io/botframework-solutions/virtual-assistant/tutorials/customize-assistant/csharp/2-edit-your-greeting/) and then return to this documentation for next steps.
+Now that you&#39;ve got a generic Virtual Assistant enterprise baseline working, you&#39;re ready to customize it for your scenario.  For this workshop, the only customization step we&#39;ll do is to edit the greeting. The customization of editing responses involves localizing resource strings which aren&#39;t leveraged in this workshop, so we&#39;ll skip that.  Customizing cognitive models is covered elsewhere in this workshop, so we&#39;ll skip that too.  To customize the greeting, complete the [&quot;edit your greeting&quot; step here](https://microsoft.github.io/botframework-solutions/virtual-assistant/tutorials/customize-assistant/csharp/2-edit-your-greeting/) and your cue to return to this documentation will be when see the &quot;Next Steps&quot; navigation link.
 
 ## Step 3 - Update QnA Maker Knowledge Base (KB)<a name=Step3UpdateQnAMakerKnowledgeBaseKB />
 
