@@ -272,7 +272,7 @@ Adding metadata to a question and answer set allows your client application to r
 
 To add metadata to questions, [follow the instructions here](https://docs.microsoft.com/en-us/azure/cognitive-services/QnAMaker/how-to/edit-knowledge-base#add-metadata).
 
-**Note** : Over time, as you develop your assistant, you might decide to add additional QnA Knowledgebases (or refactor your current Knowledgebase into multiple Knowledgebases) and the instructions for how to do that are located [here](https://microsoft.github.io/botframework-solutions/tutorials/csharp/customize-assistant/4_edit_your_cognitive_models/) in the **Add an additional knowledgebase** section.
+**Note** : Over time, as you develop your assistant, you might decide to add additional QnA Knowledgebases (or refactor your current Knowledgebase into multiple Knowledgebases) and the instructions for how to do that are located [here](https://microsoft.github.io/botframework-solutions/virtual-assistant/tutorials/customize-assistant/csharp/4-edit-your-cognitive-models/) in the **Add an additional knowledgebase** section.
 
 ### Step 3.6 – Turn on Active Learning<a name=Step36TurnonActiveLearning />
 
@@ -368,7 +368,7 @@ Follow these steps to install the To Do Skill:
 | appPassword | The password for the [Azure Active Directory App](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) that will be used by your bot. It must be at least 16 characters long, contain at least 1 special character, and contain at least 1 numeric character. If using an existing app, this must be the existing password. | **Yes** |
 | luisAuthoringKey | The authoring key for your LUIS account. It can be found at [https://www.luis.ai/user/settings](https://www.luis.ai/user/settings) or [https://eu.luis.ai/user/settings](https://eu.luis.ai/user/settings) | **Yes** |
 
-7. Now follow same instructions for adding a custom skill skipping to the Test Your Skill step found [here](https://github.com/microsoft/botframework-solutions/blob/master/docs/tutorials/csharp/skill.md#test-your-skill)
+7. Now follow same instructions for adding a custom skill skipping to the Test Your Skill step found [here](https://microsoft.github.io/botframework-solutions/skills/tutorials/add-prebuilt-skill/5-test-your-skill/)
 
 ## Step 8 - Wrapping Up Build Stage<a name=Step8WrappingUpBuildStage />
 
