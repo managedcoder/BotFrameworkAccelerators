@@ -351,7 +351,7 @@ Adding a built-in skill is an optional part of the workshop since and the built-
 
 Follow these steps to install the To Do Skill:
 
-1. Browse to the Bot Framework Solutions Repository [here](https://github.com/microsoft/botframework-solutionsX) and clone it to your development PC by clicking the **Clone or download** button and then choose **Download ZIP**.  
+1. Browse to the Bot Framework Solutions Repository [here](https://github.com/microsoft/botframework-solutions) and clone it to your development PC by clicking the **Clone or download** button and then choose **Download ZIP**.  
 ![GitHub clone User Interface](./Images/CloneGitHubRepo.png)
 2. Extract the ZIP to your local hard drive and then copy the **botframework-solutions-master\skills\src\csharp\todoskill** folder and paste it into the root folder of your Virtual Assistant solution (i.e. the folder that holds the **.sln** file)
 3. Open your Virtual Assistant solution in Visual Studio and right-click the solution in the Solution Explorer and choose **Add | Existing Project…** and add **todoskill\todoskill\ToDoSkill.csproj**
