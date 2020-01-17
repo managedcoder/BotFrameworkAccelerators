@@ -329,9 +329,9 @@ After you&#39;ve added your bot&#39;s first core intents in the luis.ai portal, 
 2. To make new Intents visible to the botskills command and eventually your assistant, publish your skill using the command below or from Visual Studio (i.e. right-click skill project in the Solution Explorer and select **Publish** )
 `.\Deployment\Scripts\publish.ps1 -name <skill's app service name> -resourceGroup <rg name> -projFolder .\`
 3. To update the assistant&#39;s dispatcher to reflect the changes made to the skill, run the following command from the Assistant&#39;s project directory (see &quot;Update a Skill to your Virtual Assistant&quot; section [here](https://github.com/microsoft/botframework-solutions/blob/master/tools/botskills/docs/update.md) for more details)  
-`botskills update --botName <assistant's name> --remoteManifest "https://<skill name>.azurewebsites.net/api/skill/manifest" --cs --luisFolder "<full file path to skill's project folder>\Deployment\Resources\LU\en"`
+`botskills update --botName <assistant's name> --remoteManifest "https://<skill name>.azurewebsites.net/api/skill/manifest" --cs --luisFolder "<full file path to skill's project folder>\Deployment\Resources\LU\en-us"`
 4. Run this command from Skills project directory to update the <skill's name>.cs file  
-`luisgen .\Deployment\Resources\LU\en\<skill's name>.luis -cs <skill's name> -o .\Services`
+`luisgen .\Deployment\Resources\LU\en-us\<skill's name>.luis -cs <skill's name> -o .\Services`
 
 **Note** : Copy the **botskills connect** command you used early in step 4 when you added your Skill to your Assistant and then change the word &quot;connect&quot; to &quot;update&quot; to create the **botskills update** command
 
