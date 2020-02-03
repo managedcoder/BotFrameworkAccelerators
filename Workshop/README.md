@@ -38,7 +38,7 @@ Although this workshop focuses primarily on the **Plan** and **Build** phases it
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 3.7 – Update Your Local Models](#Step37UpdateYourLocalModels)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[(Optional) Collaborate](#OptionalCollaborate)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4 - Add Your Core Skill](#Step4AddYourCoreSkill)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.1 – Create, Provision, and Run Your Core Skill](#Step41CreateProvisionRunYourCoreSkill)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.1 – Create, Provision, Run, and Connect Your Core Skill](#Step41CreateProvisionRunConnectYourCoreSkill)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 4.2 - Update NuGet Packages](#Step42UpdateNuGetPackages)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 5 - Implement Your Skill's Core Scenario](#Step5ImplementYourSkillsCoreScenario)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Step 5.1 - Add LUIS Intent in the LUIS portal](#Step51AddLUISIntentintheLUISportal)  
@@ -296,7 +296,7 @@ Although it not a concern during the workshop, many organizations will need to k
 
 A key feature of the Virtual Assistant (VA) is its Skills-based architecture.  Skills are the heart of a VA bot and they are what gives a VA bot its behavior.  Skills are the unit of modularization for VA bots.  Typically, a bot will have a single core skill and one or more companion skills that complement the core skill and create a richer, more knowledgeable bot.  ­
 
-### Step 4.1 – Create, Provision, and Run Your Core Skill­<a name=Step41CreateProvisionRunYourCoreSkill />  
+### Step 4.1 – Create, Provision, Run, and Connect Your Core Skill­<a name=Step41CreateProvisionRunConnectYourCoreSkill />  
 
 In this step, you&#39;ll create a custom skill that you&#39;ll use to implement your bot&#39;s core skill following the same style of task-based instructions you followed when you created the Assistant where you&#39;ll find navigation links in the bottom right-hand corner of the page that will take you to the next step in the instructions.  So to create, provision, connect, and test your Skill, [follow the steps here](https://microsoft.github.io/botframework-solutions/skills/tutorials/create-skill/csharp/3-create-your-skill/) and your cue to return to this documentation will be when you see the "Next Steps" navigation link.
 
