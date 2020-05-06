@@ -1,5 +1,17 @@
 # Razor Page Web Chat Host
 Add the `Page` folder and its contents to the project folder of your bot:
+
+* Add the following to ConfigureServices() method in startup.cs:
+```c#
+            // Add Razor Pages
+            services.AddRazorPages();
+```
+
+* Add the following member to the Startup class in startup.cs:
+```c#
+        public static HttpClient HttpClient = new HttpClient();
+```
+
 * Replace the UseEndpoints statement in Configure() method in startup.cs:
 ```c#
                 .UseEndpoints(endpoints =>
@@ -8,15 +20,7 @@ Add the `Page` folder and its contents to the project folder of your bot:
                     endpoints.MapRazorPages();
                 });
 ```
-* Add the following to ConfigureServices() method in startup.cs:
-```c#
-            // Add Razor Pages
-            services.AddRazorPages();
-```
-* Add the following member to the Startup class in startup.cs:
-```c#
-        public static HttpClient HttpClient = new HttpClient();
-```
+
 * Add you bot secret to the appsettings.cs config file
 ```json
   "BotSecret": "<your bot secret>",
