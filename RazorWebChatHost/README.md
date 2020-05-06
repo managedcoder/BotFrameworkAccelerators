@@ -1,11 +1,13 @@
 # Razor Page Web Chat Host
 Add the Page folder and its contents to your bot and then:
-* Replace the UseEndpoints statement in status.
+* Replace the UseEndpoints statement in startup.cs:
+```c#
                 .UseEndpoints(endpoints =>
                 {
                     endpoints.MapControllers();
                     endpoints.MapRazorPages();
                 });
+```
 * Add the following to ConfigureServices:
             // Add Razor Pages
             services.AddRazorPages();
