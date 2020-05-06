@@ -26,4 +26,4 @@ Add the `Page` folder and its contents to the project folder of your bot:
   "BotSecret": "<your bot secret>",
 ```
 
-# Delete the `default.htm` file from the `wwwroot` folder since you now have a new home page
+* Delete the `default.htm` file from the `wwwroot` folder since you now have a new home page
