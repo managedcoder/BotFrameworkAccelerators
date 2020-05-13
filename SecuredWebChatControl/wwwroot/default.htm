@@ -3,11 +3,19 @@
 
 <!--
     Important!!!
-    This page expects the TokenController.cs file to be copied to the Controller folder so it can call
+    This webpage expects the TokenController.cs file to be copied to the Controller folder so it can call
     the token service to get or refresh the access token for the bot.  This is the recommended way to
     embed the web chat control so that the bot secret is not exposed.
 
-    See this for details: https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-authentication?view=azure-bot-service-4.0
+    Important Also!!!
+    Use this webpage as an example of how to embed the web chat control in a webpage on your current site
+    and when you do, you will also need to enable CORS on the on the App Service that is hosting the token 
+    API (implemented in TokenController.cs
+
+    To learn how to enable CORS on the App Service that is hosting the token API (implemented in
+    TokenController.cs), see: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-rest-api
+
+    For details regarding securing web chat control, see: https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-authentication?view=azure-bot-service-4.0
 -->
 
 <head>
