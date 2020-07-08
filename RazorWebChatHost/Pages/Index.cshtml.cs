@@ -9,8 +9,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
+using SBA_Assistant;
 
-namespace EvaAssistant.Pages
+namespace SecuredWebChat.Razor.Pages
 {
     public class IndexModel : PageModel
     {
@@ -19,27 +20,23 @@ namespace EvaAssistant.Pages
         public IndexModel(IConfiguration configuration)
         {
             BotSecret = configuration["BotSecret"];
-            HideUploadButton = true;
-            BotAvatarInitials = null;
-            UserAvatarInitials = null;
-            //Language = configuration["Language"];
+            HideUploadButton = bool.Parse(configuration["HideUploadButton"]);
+            BotAvatarInitials = configuration["BotAvatarInitials"];
+            UserAvatarInitials = configuration["UserAvatarInitials"];
 
             DLToken = GetTokenAsync().ConfigureAwait(false).GetAwaiter().GetResult().token;
-
         }
         public string DLToken { get; set; }
 
         // Dynamic values (not appsettings values)
-        public string UserId { get; set; } = Guid.NewGuid().ToString();
-        public string UserName { get; set; } = "covid19user";
-        public string ConversationId { get; set; } = Guid.NewGuid().ToString();
+        public string UserId { get; set; } =  $"dl_{Guid.NewGuid()}";
+        public string UserName { get; set; } = "botUser";
 
         //Index.cshtml settings
         public string BotSecret { get; set; }
         public bool HideUploadButton { get; set; }
         public string BotAvatarInitials { get; set; }
         public string UserAvatarInitials { get; set; }
-        public string Language { get; set; }
 
         public void OnGet()
         {
@@ -77,7 +74,6 @@ namespace EvaAssistant.Pages
         public class DirectLineToken
         {
             public string userId { get; set; }
-            public string conversationId { get; set; }
             public string token { get; set; }
             public int expires_in { get; set; }
             public string streamUrl { get; set; }
