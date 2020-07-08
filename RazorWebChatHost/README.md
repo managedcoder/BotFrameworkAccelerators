@@ -40,7 +40,7 @@ added to your solution since that functionality is taken care of in the code beh
 
 **Note:** Its important to understand that when this page runs in localhost it will be interacting with
 the deployed bot, **NOT THE BOT RUNNING IN LOCAL HOST**.  So you can't use it for localhost debugging
-to hit breakpoints in your code unless you create a separate bot channels registration that points to
+to hit breakpoints in your code unless you create a separate Bot Channels Registration that points to
 an ngrok-exposed localhost.
 
 If you want to use the this page to drive localhost debugging via a separate Bot Channel Registration,
@@ -49,7 +49,11 @@ install ngrok and run this ngrok command
 ngrok http 3978 -host-header=localhost:3978
 ```
 When creating the Bot Channel Registration, you'll have to set the messaging endpoint of the Bot Channel
-Registration to the https version of the endpoints exposed by ngrok which should look something like this:
+Registration to the https version of the endpoints exposed by ngrok which should look something like 
+the following.  Remember, the ngrok exposed endpoint only lasts as long as the command window is
+running so the next time you run ngrok you'll have to reset/update the messaging endpoint in the Bot
+Chanel Registration.
+
 ```
 https://<ngrok generated #>.ngrok.io/api/messages
 ```
