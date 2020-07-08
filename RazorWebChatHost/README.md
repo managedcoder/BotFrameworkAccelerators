@@ -1,5 +1,10 @@
 # Razor Page Web Chat Host
-Add the `Pages` folder and its contents to the project folder of your bot:
+
+This Razor page shows how to securly hosts a Web Chat control and it can be used as a convenient
+test page during development that other can use to access your bot.  To use this page, do the
+following:
+    
+* Add the `Pages` folder and its contents to the project folder of your bot:
 
 * Add the following member to the Startup class in startup.cs:
 ```c#
@@ -39,5 +44,5 @@ can be configured, if desired
 * Note: Unlike other approaches, this Razor page DOES NOT require a token controller API to be
 added to your solution since that functionality is taken care of in the code behind for this page.
 
-Details regarding securing web chat control can be found (here)[https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-authentication?view=azure-bot-service-4.0]
+Details regarding securing web chat control can be found [here](https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-authentication?view=azure-bot-service-4.0)
 
